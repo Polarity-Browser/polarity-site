@@ -1,84 +1,33 @@
 import React from 'react';
 
-import { Navbar, Nav, Form, Button, FormControl } from 'react-bootstrap';
+import { Navbar, Nav, Form, Button, FormControl, NavDropdown } from 'react-bootstrap';
 
 interface HeaderComponentProps {}
 
 export const HeaderComponent: React.FC<HeaderComponentProps> = props => {
     return (
         <div>
-            <h6 className="white uppercase">Cirrus</h6>
-            <div className="content">
-                <div className="divider"></div>
-                <div className="row">
-                    <div className="col-3">
-                        <ul className="no-bullets">
-                            <a href="../animations">
-                                <li className="list-item">Animations</li>
-                            </a>
-                            <a href="../buttons">
-                                <li className="list-item">Buttons</li>
-                            </a>
-                            <a href="../components">
-                                <li className="list-item">Components</li>
-                            </a>
-                        </ul>
-                    </div>
-                    <div className="col-3">
-                        <ul className="no-bullets">
-                            <a href="../font">
-                                <li className="list-item">Font</li>
-                            </a>
-                            <a href="../footer">
-                                <li className="list-item">Footer</li>
-                            </a>
-                            <a href="../forms">
-                                <li className="list-item">Forms</li>
-                            </a>
-                        </ul>
-                    </div>
-                    <div className="col-3">
-                        <ul className="no-bullets">
-                            <a href="../header">
-                                <li className="list-item">Header</li>
-                            </a>
-                            <a href="../layout">
-                                <li className="list-item">Layout</li>
-                            </a>
-                            <a href="../links">
-                                <li className="list-item">Links</li>
-                            </a>
-                        </ul>
-                    </div>
-                    <div className="col-3">
-                        <ul className="no-bullets">
-                            <a href="../lists">
-                                <li className="list-item">Lists</li>
-                            </a>
-                            <a href="../tables">
-                                <li className="list-item">Table</li>
-                            </a>
-                            <a href="../utils">
-                                <li className="list-item">Util</li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <p className="subtitle">
-                The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-                website content is licensed{' '}
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                    CC BY-NC-SA 4.0
-                </a>
-                .
-            </p>
-            <p>
-                Made with <i className="fa fa-heart pulse" aria-hidden="true"></i> by{' '}
-                <a href="http://stanleylim.me" target="_blank">
-                    Stanley Lim
-                </a>
-            </p>
+            <Navbar bg="dark" variant="dark" expand="lg">
+                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mr-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#link">Link</Nav.Link>
+                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                        </NavDropdown>
+                    </Nav>
+                    <Form inline>
+                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                        <Button variant="outline-success">Search</Button>
+                    </Form>
+                </Navbar.Collapse>
+            </Navbar>
         </div>
     );
 };
