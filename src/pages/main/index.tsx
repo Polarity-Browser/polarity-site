@@ -1,14 +1,38 @@
 import React from 'react';
 
-interface MainProps {
+/** @jsx jsx */
+import { jsx, css } from '@emotion/core';
+import './index.scss';
 
-}
+interface MainProps {}
 
-export const Main: React.FC<MainProps> = (props) => {
-    
+export const Main: React.FC<MainProps> = props => {
     return (
         <div>
-            <h1>Polarity Browser</h1>
+            <div
+                className="jumbotron splash"
+                css={{
+                    display: 'flex',
+                    minHeight: '100vh',
+                    alignItems: 'center'
+                }}
+            >
+                <div className="container">...</div>
+                <div className="polygons">
+                    <div className="polygons__list">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </div>
+                </div>
+            </div>
         </div>
-    )
-}
+    );
+};

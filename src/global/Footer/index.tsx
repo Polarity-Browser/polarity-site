@@ -54,10 +54,6 @@ export const FooterComponent: React.FC<FooterComponentProps> = props => {
                 </div>
             </div>
 
-            <section>
-                
-            </section>
-
             <div className="container">
                 <hr />
                 <div className="d-flex justify-content-between">

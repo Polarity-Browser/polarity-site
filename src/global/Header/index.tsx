@@ -1,13 +1,23 @@
 import React from 'react';
 
 import { Navbar, Nav, Form, Button, FormControl, NavDropdown } from 'react-bootstrap';
+/** @jsx jsx */
+import { jsx, css } from '@emotion/core';
 
 interface HeaderComponentProps {}
 
 export const HeaderComponent: React.FC<HeaderComponentProps> = props => {
     return (
         <div>
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar
+                bg="dark"
+                variant="dark"
+                expand="lg"
+                css={{
+                    position: 'fixed',
+                    width: '100%'
+                }}
+            >
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
