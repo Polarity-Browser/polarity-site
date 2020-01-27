@@ -15,7 +15,8 @@ export const HeaderComponent: React.FC<HeaderComponentProps> = props => {
                 expand="lg"
                 css={{
                     position: 'fixed',
-                    width: '100%'
+                    width: '100%',
+                    zIndex: 1000
                 }}
             >
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
