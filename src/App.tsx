@@ -3,6 +3,8 @@ import { BrowserRouter } from 'react-router-dom';
 
 import { Router } from './router';
 import logo from './logo.svg';
+
+import './styles/fonts.scss';
 import './App.scss';
 
 const App: React.FC = () => {

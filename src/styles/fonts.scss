@@ -1,0 +1,26 @@
+.responsive-lead {
+    line-height: 1.8;
+    font-size: 1.2rem;
+}
+.responsive-p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 1440px) {
+    .responsive-lead {
+        font-size: 1.4rem;
+    }
+    .responsive-p {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .responsive-lead {
+        font-size: 1.1rem;
+    }
+    .responsive-p {
+        font-size: inherit;
+    }
+}
