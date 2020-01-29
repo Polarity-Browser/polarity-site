@@ -7,6 +7,12 @@
     font-size: 1.1rem;
 }
 
+.font-bold {
+    font-family: "Poppins", "Open Sans Pro", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
 @media only screen and (min-width: 1440px) {
     .responsive-lead {
         font-size: 1.4rem;
