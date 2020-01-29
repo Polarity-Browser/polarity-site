@@ -24,7 +24,7 @@ export const Main: React.FC<MainProps> = props => {
                         zIndex: 1100
                     }}
                 >
-                    <div className="display-3 text-left pb-5 ">A better browsing experience starts here.</div>
+                    <div className="display-3 text-left">A better browsing experience starts here.</div>
                     <div className="row mt-5">
                         <div className="col-lg-5 text-left">
                             <p className="lead">
@@ -64,6 +64,22 @@ export const Main: React.FC<MainProps> = props => {
                                     zIndex: 1001
                                 }}
                             >
+                                <img
+                                    className="d-none d-lg-block"
+                                    css={{
+                                        maxWidth: 'none'
+                                    }}
+                                    srcSet="
+            /images/landing.png 1x,
+            /images/landing2x.png 2x, 
+            /images/landing3x.png 3x"
+                                    sizes="
+            (min-width: 100px) 1559px, 
+            (min-width: 2500px) 3118px, 
+            (min-width: 3500px) 4677px,
+            1000px"
+                                    src="/images/landing.png"
+                                />
                             </picture>
                         </div>
                     </div>
@@ -350,39 +366,38 @@ export const Main: React.FC<MainProps> = props => {
                 </div>
             </section>
 
-            <section className="section--padded">
+            <section className="section--padded text-center">
                 <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-8">
-                            <picture>
-                                <img className="w-100" src="/images/security_orig.png" />
-                            </picture>
-                        </div>
-                        <div className="col-lg-4">
-                            <h3
-                                className="h3 mb-4"
-                                css={{
-                                    color: '#2a4b78',
-                                    fontWeight: 'bold'
-                                }}
-                            >
-                                Security
-                            </h3>
-                            <hr
-                                css={{
-                                    background: 'linear-gradient(to right, #feac5e, #c779d0, #4bc0c8)',
-                                    borderRadius: '1rem',
-                                    height: '5px',
-                                    margin: '2rem 0',
-                                    maxWidth: '300px'
-                                }}
-                            />
-                            <p className="responsive-lead">
-                                With security, Polarity has you covered. Get alerts for potentially harmful sites and steer clear from phishing sites powered by <a href="https://www.phishtank.com/" target="_blank">PhishTank</a>.
-                            </p>
-                        </div>
-                    </div>
+                    <h3
+                        className="h3 mb-4"
+                        css={{
+                            color: '#2a4b78',
+                            fontWeight: 'bold'
+                        }}
+                    >
+                        Security
+                    </h3>
+                    <hr
+                        css={{
+                            background: 'linear-gradient(to right, #feac5e, #c779d0, #4bc0c8)',
+                            borderRadius: '1rem',
+                            height: '5px',
+                            margin: '2rem auto',
+                            maxWidth: '300px'
+                        }}
+                    />
+                    <p className="responsive-lead">
+                        With security, Polarity has you covered. Get alerts for potentially harmful sites and steer
+                        clear from phishing sites powered by{' '}
+                        <a href="https://www.phishtank.com/" target="_blank">
+                            PhishTank
+                        </a>
+                        .
+                    </p>
                 </div>
+                <picture>
+                    <img src="/images/security.png" />
+                </picture>
             </section>
 
             <section className="section--padded">
@@ -413,7 +428,12 @@ export const Main: React.FC<MainProps> = props => {
                                 }}
                             />
                             <p className="responsive-lead">
-                                With security, Polarity has you covered. Get alerts for potentially harmful sites and steer clear from phishing sites powered by <a href="https://www.phishtank.com/" target="_blank">PhishTank</a>.
+                                With security, Polarity has you covered. Get alerts for potentially harmful sites and
+                                steer clear from phishing sites powered by{' '}
+                                <a href="https://www.phishtank.com/" target="_blank">
+                                    PhishTank
+                                </a>
+                                .
                             </p>
                         </div>
                     </div>
