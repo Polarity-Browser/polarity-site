@@ -64,7 +64,6 @@ export const Main: React.FC<MainProps> = props => {
                                     zIndex: 1001
                                 }}
                             >
-                                
                             </picture>
                         </div>
                     </div>
@@ -346,6 +345,76 @@ export const Main: React.FC<MainProps> = props => {
                         </div>
                         <div className="col-2">
                             <img src="http://polarity.x10.mx/browser/img/legend.PNG" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section--padded">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-8">
+                            <picture>
+                                <img className="w-100" src="/images/security_orig.png" />
+                            </picture>
+                        </div>
+                        <div className="col-lg-4">
+                            <h3
+                                className="h3 mb-4"
+                                css={{
+                                    color: '#2a4b78',
+                                    fontWeight: 'bold'
+                                }}
+                            >
+                                Security
+                            </h3>
+                            <hr
+                                css={{
+                                    background: 'linear-gradient(to right, #feac5e, #c779d0, #4bc0c8)',
+                                    borderRadius: '1rem',
+                                    height: '5px',
+                                    margin: '2rem 0',
+                                    maxWidth: '300px'
+                                }}
+                            />
+                            <p className="responsive-lead">
+                                With security, Polarity has you covered. Get alerts for potentially harmful sites and steer clear from phishing sites powered by <a href="https://www.phishtank.com/" target="_blank">PhishTank</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section--padded">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-8">
+                            <picture>
+                                <img className="w-100" src="/images/security_orig.png" />
+                            </picture>
+                        </div>
+                        <div className="col-lg-4">
+                            <h3
+                                className="h3 mb-4"
+                                css={{
+                                    color: '#2a4b78',
+                                    fontWeight: 'bold'
+                                }}
+                            >
+                                Security
+                            </h3>
+                            <hr
+                                css={{
+                                    background: 'linear-gradient(to right, #feac5e, #c779d0, #4bc0c8)',
+                                    borderRadius: '1rem',
+                                    height: '5px',
+                                    margin: '2rem 0',
+                                    maxWidth: '300px'
+                                }}
+                            />
+                            <p className="responsive-lead">
+                                With security, Polarity has you covered. Get alerts for potentially harmful sites and steer clear from phishing sites powered by <a href="https://www.phishtank.com/" target="_blank">PhishTank</a>.
+                            </p>
                         </div>
                     </div>
                 </div>
