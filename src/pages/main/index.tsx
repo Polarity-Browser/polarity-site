@@ -5,6 +5,8 @@ import { jsx, css } from '@emotion/core';
 import './index.scss';
 import { InputGroup, FormControl, Button, Nav } from 'react-bootstrap';
 
+import { RamGraph } from './components';
+
 interface MainProps {}
 
 export const Main: React.FC<MainProps> = props => {
@@ -135,13 +137,14 @@ export const Main: React.FC<MainProps> = props => {
                             </p>
                         </div>
                         <div className="col-lg-6">
-                            <p>Some image</p>
+                            <RamGraph />
+                        
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="section--padded">
+            <section className="section--padded section--wave section--text">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 mb-5">
@@ -201,7 +204,7 @@ export const Main: React.FC<MainProps> = props => {
                 </div>
             </section>
 
-            <section className="section--padded">
+            <section className="section--padded section--wave section--text">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 mb-5">
@@ -214,7 +217,7 @@ export const Main: React.FC<MainProps> = props => {
                                     textTransform: 'uppercase'
                                 }}
                             >
-                                AdBlocking with Privoxy
+                                ✋ AdBlocking with Privoxy
                             </h5>
                             <p className="responsive-p">
                                 De-clutter your browsing experience with{' '}
@@ -235,7 +238,7 @@ export const Main: React.FC<MainProps> = props => {
                                     textTransform: 'uppercase'
                                 }}
                             >
-                                Browse with a Proxy or Tor
+                                💨 Browse with a Proxy or Tor
                             </h5>
                             <p className="responsive-p">
                                 Polarity allows you to browse with any <b>SOCKS4/5</b> or <b>HTTPS</b> proxy to mask
@@ -253,7 +256,7 @@ export const Main: React.FC<MainProps> = props => {
                                     textTransform: 'uppercase'
                                 }}
                             >
-                                Incognito Mode
+                                🙈 Incognito Mode
                             </h5>
                             <p className="responsive-p">
                                 In Private Mode, Polarity does not remember any of your history, cookies, or cache data
@@ -272,7 +275,7 @@ export const Main: React.FC<MainProps> = props => {
                                     textTransform: 'uppercase'
                                 }}
                             >
-                                Flexibility
+                                🐙 Flexibility
                             </h5>
                             <p className="responsive-p">
                                 Polarity focuses on giving you the power to choose what content is loaded and what
@@ -405,7 +408,7 @@ export const Main: React.FC<MainProps> = props => {
                     <div className="row align-items-center">
                         <div className="col-lg-8">
                             <picture>
-                                <img className="w-100" src="/images/security_orig.png" />
+                                <img className="w-100" src="/images/speed.png" />
                             </picture>
                         </div>
                         <div className="col-lg-4">
@@ -416,7 +419,7 @@ export const Main: React.FC<MainProps> = props => {
                                     fontWeight: 'bold'
                                 }}
                             >
-                                Security
+                                Speed
                             </h3>
                             <hr
                                 css={{
