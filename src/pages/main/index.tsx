@@ -57,10 +57,6 @@ export const Main: React.FC<MainProps> = props => {
                             </InputGroup>
                         </div>
                         <div className="col-lg-7 splash__img">
-                            {/* <img src="https://via.placeholder.com/1000x500" css={{
-                                    maxWidth: '100%',
-                                    height: 'auto'
-                            }} /> */}
                             <picture
                                 css={{
                                     zIndex: 1001
@@ -136,9 +132,11 @@ export const Main: React.FC<MainProps> = props => {
                                 RAM.
                             </p>
                         </div>
-                        <div className="col-lg-6">
-                            <RamGraph />
-                        
+                        <div className="col-lg-6 text-center">
+                            <div>
+                                <RamGraph />
+                            </div>
+                            <span>Test conducted with </span>
                         </div>
                     </div>
                 </div>
@@ -431,12 +429,9 @@ export const Main: React.FC<MainProps> = props => {
                                 }}
                             />
                             <p className="responsive-lead">
-                                With security, Polarity has you covered. Get alerts for potentially harmful sites and
-                                steer clear from phishing sites powered by{' '}
-                                <a href="https://www.phishtank.com/" target="_blank">
-                                    PhishTank
-                                </a>
-                                .
+                                Powered by both Chromium and Trident, Polarity supports the latest web standards along
+                                with backwards compatibility. With hardware acceleration and WebGL support in both
+                                engines, Polarity delivers an immersive experience that puts the web first.
                             </p>
                         </div>
                     </div>

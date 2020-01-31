@@ -62,7 +62,7 @@ export const RamGraph: React.FC<RamGraphProps> = props => {
 
     const chartData = (canvas: any) => {
         return {
-            labels: ['1 Tab', '5 Tabs', '20 Tabs', '50 Tabs'],
+            labels: ['1 Tab', '5 Tabs', '15 Tabs', '30 Tabs'],
             datasets: [
                 {
                     label: 'Polarity',
