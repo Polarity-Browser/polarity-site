@@ -1,0 +1,16 @@
+@import "./functions.scss";
+
+$text-dark: #37384e;
+$text-light: #fff;
+
+$footer-background: #20123a;
+
+:root {
+    --text-dark: #{$text-dark};
+    --text-light: #{$text-light};
+
+    --footer-background: #{$footer-background};
+    --footer-social-background: #{lighten($footer-background, 10%)};
+    --footer-social-background-hover: #{lighten($footer-background, 5%)};
+    --footer-social-text-hover: #{lighten($text-dark, 50%)};
+}

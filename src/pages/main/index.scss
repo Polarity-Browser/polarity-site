@@ -1,13 +1,13 @@
 .section--padded {
     padding: 7.5rem 0;
 
-    &:nth-child(odd) { 
-        background-color: #ebf8fb;
+    &:nth-child(odd) {
+        background-color: #d8e3f3;
     }
 }
 
 .section--text {
-    background-color: #eff6ff !important;
+    background-color: #d8e3f3 !important;
 }
 
 .section--wave {
@@ -16,6 +16,16 @@
     background-repeat: repeat-x;
     background-size: contain;
     background-image: url('/images/wave.png');
+}
+
+.section--download {
+    background: #20123a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #20123a, #640e8e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #20123a,
+        #640e8e
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .row,
@@ -147,8 +157,23 @@ picture img {
     }
 }
 
-@media screen and (max-width: 991px) {
+.btn-polarity {
+    box-shadow: 0 0.5rem 1.25rem 0 rgba(39,48,54,0.2);
+    padding: 1rem 2.5rem;
+    transition: all 140ms ease;
 
+    &:hover {
+        box-shadow: 0 1rem 2.5rem 0 rgba(39,48,54,0.25);
+        transform: translateY(-0.125rem);
+    }
+
+    &:active {
+        box-shadow: none;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 991px) {
     .polygons {
         position: inherit;
     }

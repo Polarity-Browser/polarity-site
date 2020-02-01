@@ -5,6 +5,7 @@ import { Router } from './router';
 import logo from './logo.svg';
 
 import './styles/fonts.scss';
+import './styles/theme.scss';
 import './App.scss';
 
 const App: React.FC = () => {

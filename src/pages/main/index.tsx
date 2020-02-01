@@ -6,6 +6,7 @@ import './index.scss';
 import { InputGroup, FormControl, Button, Nav } from 'react-bootstrap';
 
 import { RamGraph } from './components';
+import { Wave } from '../../global';
 
 interface MainProps {}
 
@@ -26,10 +27,10 @@ export const Main: React.FC<MainProps> = props => {
                         zIndex: 1100
                     }}
                 >
-                    <div className="display-3 text-left">A better browsing experience starts here.</div>
+                    <div className="display-4 text-left font-bold">A better browsing experience starts here.</div>
                     <div className="row mt-5">
                         <div className="col-lg-5 text-left">
-                            <p className="lead">
+                            <p className="lead font-bold">
                                 A feature packed, fast, secure, stable, and highly customizable web browser that offers
                                 the latest web standards.
                             </p>
@@ -101,7 +102,7 @@ export const Main: React.FC<MainProps> = props => {
             <section
                 className="d-flex"
                 css={{
-                    height: '100vh'
+                    minHeight: '100vh'
                 }}
             >
                 <div className="container">
@@ -185,12 +186,38 @@ export const Main: React.FC<MainProps> = props => {
                 </div>
             </section>
 
-            <section className="section--padded">
+            <section
+                className="section--padded"
+                css={{
+                    minHeight: '100vh'
+                }}
+            >
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6"></div>
-                        <div className="col-lg-6">
-                            <h3 className="h3 font-bold">Stop snoopers in their tracks.</h3>
+                    <div className="row align-items-center">
+                        <div className="col-lg-8">
+                            <picture>
+                                <img src="/images/privacy.png" />
+                            </picture>
+                        </div>
+                        <div className="col-lg-4">
+                            <h3
+                                className="h3 mb-4"
+                                css={{
+                                    color: '#2a4b78',
+                                    fontWeight: 'bold'
+                                }}
+                            >
+                                Stop snoopers in their tracks.
+                            </h3>
+                            <hr
+                                css={{
+                                    background: 'linear-gradient(to right, #feac5e, #c779d0, #4bc0c8)',
+                                    borderRadius: '1rem',
+                                    height: '5px',
+                                    margin: '2rem 0',
+                                    maxWidth: '300px'
+                                }}
+                            />
                             <p className="responsive-p">
                                 Prevent websites from tracking your every movement online. Polarity will not track or
                                 store your browsing history, accounts, sessions, and sensitive information while
@@ -219,7 +246,7 @@ export const Main: React.FC<MainProps> = props => {
                             </h5>
                             <p className="responsive-p">
                                 De-clutter your browsing experience with{' '}
-                                <a href="https://www.privoxy.org/" target="_blank">
+                                <a href="https://www.privoxy.org/" target="_blank" rel="noopener noreferrer">
                                     Privoxy's
                                 </a>{' '}
                                 native content filtering and privacy controls. You use Polarity's built-in filters or
@@ -376,7 +403,7 @@ export const Main: React.FC<MainProps> = props => {
                             fontWeight: 'bold'
                         }}
                     >
-                        Security
+                        Stay Secure.
                     </h3>
                     <hr
                         css={{
@@ -390,7 +417,7 @@ export const Main: React.FC<MainProps> = props => {
                     <p className="responsive-lead">
                         With security, Polarity has you covered. Get alerts for potentially harmful sites and steer
                         clear from phishing sites powered by{' '}
-                        <a href="https://www.phishtank.com/" target="_blank">
+                        <a href="https://www.phishtank.com/" target="_blank" rel="noopener noreferrer">
                             PhishTank
                         </a>
                         .
@@ -417,7 +444,7 @@ export const Main: React.FC<MainProps> = props => {
                                     fontWeight: 'bold'
                                 }}
                             >
-                                Speed
+                                Performance is key.
                             </h3>
                             <hr
                                 css={{
@@ -435,6 +462,108 @@ export const Main: React.FC<MainProps> = props => {
                             </p>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <div className="container text-center">
+                <p className="display-4 font-bold">All this and more.</p>
+                <p className="responsive-lead">
+                    Still not convinced? Check out all the other features that Polarity has to offer.
+                </p>
+                <br />
+                <Button size="lg" className="btn-polarity">
+                    Explore <i className="fas fa-chevron-right ml-2"></i>
+                </Button>
+            </div>
+
+            <Wave backgroundColor="#640e8e" />
+            <section className="section--padded section--download text-white">
+                <div className="container">
+                    <p className="display-4 font-bold mb-5">See what others have said about us.</p>
+
+                    <p
+                        className="responsive-lead"
+                        css={{
+                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                            borderRadius: '.25rem',
+                            padding: '2rem'
+                        }}
+                    >
+                        <i>
+                            “Using the 'Web Filter', you can prevent any automatic redirection to malicious websites,
+                            protecting your system's security.”{' '}
+                        </i>
+                        &mdash; Softpedia
+                    </p>
+
+                    <p
+                        className="responsive-lead"
+                        css={{
+                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                            borderRadius: '.25rem',
+                            padding: '2rem'
+                        }}
+                    >
+                        <i>
+                            “Polarity web browser is meant for any user who requires a lighter, faster, safer, and more
+                            stable browser that doesn't track you with the features of modern day web browsers.”{' '}
+                        </i>
+                        &mdash; Softonic
+                    </p>
+
+                    <p
+                        className="responsive-lead"
+                        css={{
+                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                            borderRadius: '.25rem',
+                            padding: '2rem'
+                        }}
+                    >
+                        <i>
+                            “Web browser aficionados will want to check out Polarity, which integrates Google's Chromium
+                            and Internet Explorer's Trident Web rendering engines in one program.”{' '}
+                        </i>
+                        &mdash; CNET
+                    </p>
+
+                    <p
+                        className="responsive-lead"
+                        css={{
+                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                            borderRadius: '.25rem',
+                            padding: '2rem'
+                        }}
+                    >
+                        <i>
+                            “It consumes less CPU & RAM compare to other browser and deliver an excellent browsing
+                            experience.”{' '}
+                        </i>
+                        &mdash; Geekflare
+                    </p>
+
+                    <p
+                        className="font-bold"
+                        css={{
+                            fontSize: '7rem',
+                            letterSpacing: '.01rem',
+                            marginTop: '10rem'
+                        }}
+                    >
+                        Make the switch.
+                    </p>
+                    <p className="responsive-lead">
+                        With Polarity's rich functionality, flexibility, and incredible speed, Polarity brings the best
+                        browsing experience in a small package.
+                    </p>
+
+                    <Button size="lg" className="btn-polarity mt-3" css={{
+                        fontSize: '2.25rem'
+                    }}>
+                        Download Polarity Browser for Windows <i className="fas fa-chevron-down ml-2"></i>
+                        <p css={{
+                            fontSize: '1rem'
+                        }}>Ready for Windows 7, 8, 8.1, 10</p>
+                    </Button>
                 </div>
             </section>
         </div>

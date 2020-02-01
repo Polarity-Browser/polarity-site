@@ -1,3 +1,9 @@
+:root {
+    --font: 'Muli', sans-serif;
+    --font-bold: "Poppins", "Open Sans Pro", Arial, sans-serif;
+    --line-height: 1.8;
+}
+
 .responsive-lead {
     line-height: 1.8;
     font-size: 1.2rem;
@@ -8,9 +14,9 @@
 }
 
 .font-bold {
-    font-family: "Poppins", "Open Sans Pro", Arial, sans-serif;
+    font-family: var(--font-bold);
     font-weight: 700;
-    line-height: 1.8;
+    line-height: var(--line-height);
 }
 
 @media only screen and (min-width: 1440px) {
