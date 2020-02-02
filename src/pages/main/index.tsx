@@ -471,7 +471,7 @@ export const Main: React.FC<MainProps> = props => {
                     Still not convinced? Check out all the other features that Polarity has to offer.
                 </p>
                 <br />
-                <Button size="lg" className="btn-polarity">
+                <Button variant="info" size="lg" className="btn-polarity">
                     Explore <i className="fas fa-chevron-right ml-2"></i>
                 </Button>
             </div>
@@ -525,6 +525,7 @@ export const Main: React.FC<MainProps> = props => {
                         </p>
 
                         <Button
+                            variant="info"
                             size="lg"
                             className="btn-polarity mt-3"
                             css={{

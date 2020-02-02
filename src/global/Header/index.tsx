@@ -31,7 +31,7 @@ export const HeaderComponent: React.FC<HeaderComponentProps> = props => {
                         <Nav.Link className="nav-btn" href="#link">About</Nav.Link>
                     </Nav>
                     <Nav className="ml-auto">
-                        <Button className="nav-btn">Download</Button>
+                        <Button variant="info" className="nav-btn">Download</Button>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

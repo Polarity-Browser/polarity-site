@@ -42,11 +42,28 @@ export const FooterComponent: React.FC<FooterComponentProps> = props => {
                         </p>
                     </div>
                     <div className="col">
-                        <div className="h5"><b>About Polarity</b></div>
-                        <p>Polarity is a project that began as a simple web browser. Polarity was created to bring web browsing with efficiency, speed, privacy.</p>
+                        <div className="h5">
+                            <b>About Polarity</b>
+                        </div>
                         <p>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/polaritybrowser"><button className="btn-social"><i className="fab fa-facebook-f"></i></button></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/polaritybrowser"><button className="btn-social"><i className="fab fa-twitter"></i></button></a>
+                            Polarity is a project that began as a simple web browser. Polarity was created to bring web
+                            browsing with efficiency, speed, privacy.
+                        </p>
+                        <p>
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.facebook.com/polaritybrowser"
+                            >
+                                <button className="btn-social">
+                                    <i className="fab fa-facebook-f"></i>
+                                </button>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/polaritybrowser">
+                                <button className="btn-social">
+                                    <i className="fab fa-twitter"></i>
+                                </button>
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -55,8 +72,8 @@ export const FooterComponent: React.FC<FooterComponentProps> = props => {
             <div className="container">
                 <hr />
                 <div className="d-flex justify-content-between">
-                    <h5>Logo</h5>
-                    <h5>Copyright</h5>
+                    <h4 className="d-flex"><img className="mr-2" css={{ borderRadius: '3px' }} src="/images/icons/polarity_24x24.png" /> Polarity</h4>
+                    <h4>&copy; Polarity {new Date().getFullYear()}</h4>
                 </div>
             </div>
         </div>
