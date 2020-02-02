@@ -46,11 +46,19 @@ export const Main: React.FC<MainProps> = props => {
                                 latest updates.
                             </p>
 
-                            <InputGroup className="mb-3">
+                            <InputGroup
+                                className="mb-3"
+                                css={{
+                                    boxShadow: '0 36px 51px 0 rgba(0, 0, 0, .1)'
+                                }}
+                            >
                                 <FormControl
                                     placeholder="Your email address"
                                     aria-label="Your email address"
                                     aria-describedby="basic-addon2"
+                                    css={{
+                                        height: '4rem'
+                                    }}
                                 />
                                 <InputGroup.Append>
                                     <Button variant="info">Receive Updates</Button>
@@ -514,11 +522,7 @@ export const Main: React.FC<MainProps> = props => {
                     </p>
 
                     <div className="text-center">
-                        <p
-                            className="font-bold display-0"
-                        >
-                            Make the switch.
-                        </p>
+                        <p className="font-bold display-0">Make the switch.</p>
                         <p className="responsive-lead">
                             With Polarity's rich functionality, flexibility, and incredible speed, Polarity brings the
                             best browsing experience in a small package.
@@ -544,7 +548,9 @@ export const Main: React.FC<MainProps> = props => {
                             </p>
                         </Button>
 
-                        <p className="mt-2">Or Download the <a href="#">Portable Version</a></p>
+                        <p className="mt-2">
+                            Or Download the <a href="#">Portable Version</a>
+                        </p>
                     </div>
                 </div>
             </section>

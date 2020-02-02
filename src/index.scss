@@ -12,3 +12,10 @@ code {
 * {
     box-sizing: border-box;
 }
+
+::-moz-selection {
+    background:rgba(23, 162, 184, 0.5);
+}
+::selection {
+    background: rgba(23, 162, 184, 0.5);
+}

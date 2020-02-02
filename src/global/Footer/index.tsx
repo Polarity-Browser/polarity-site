@@ -73,7 +73,7 @@ export const FooterComponent: React.FC<FooterComponentProps> = props => {
                 <hr />
                 <div className="d-flex justify-content-between">
                     <h4 className="d-flex"><img className="mr-2" css={{ borderRadius: '3px' }} src="/images/icons/polarity_24x24.png" /> Polarity</h4>
-                    <h4>&copy; Polarity {new Date().getFullYear()}</h4>
+                    <h5>&copy; Polarity {new Date().getFullYear()}</h5>
                 </div>
             </div>
         </div>

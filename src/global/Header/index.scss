@@ -1,11 +1,18 @@
 nav {
     background-color: rgba(0, 0, 0, 0.75) !important;
 
-    &.navbar {
-        padding: 1rem;
+    a {
+        color: #fff;
+        transition: all .2s;
+        text-decoration: none;
+
+        &:hover {
+            color: #aaa;
+            text-decoration: none;
+        }
     }
 
-    .nav-link, .nav-btn {
+    .nav-item, .nav-btn {
         padding: .5rem 1rem !important;
     }
 }
