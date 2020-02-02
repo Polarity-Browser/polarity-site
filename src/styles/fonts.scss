@@ -19,6 +19,12 @@
     line-height: var(--line-height);
 }
 
+.display-0 {
+    font-size: 7rem;
+    letter-spacing: .01rem;
+    margin-top: 10rem;
+}
+
 @media only screen and (min-width: 1440px) {
     .responsive-lead {
         font-size: 1.4rem;
@@ -34,5 +40,8 @@
     }
     .responsive-p {
         font-size: inherit;
+    }
+    .display-0 {
+        font-size: 4rem;
     }
 }

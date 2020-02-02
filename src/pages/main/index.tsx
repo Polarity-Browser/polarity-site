@@ -100,7 +100,7 @@ export const Main: React.FC<MainProps> = props => {
             </div>
 
             <section
-                className="d-flex"
+                className="section--padded d-flex"
                 css={{
                     minHeight: '100vh'
                 }}
@@ -465,7 +465,7 @@ export const Main: React.FC<MainProps> = props => {
                 </div>
             </section>
 
-            <div className="container text-center">
+            <div className="section--padded container text-center">
                 <p className="display-4 font-bold">All this and more.</p>
                 <p className="responsive-lead">
                     Still not convinced? Check out all the other features that Polarity has to offer.
@@ -481,14 +481,7 @@ export const Main: React.FC<MainProps> = props => {
                 <div className="container">
                     <p className="display-4 font-bold mb-5">See what others have said about us.</p>
 
-                    <p
-                        className="responsive-lead"
-                        css={{
-                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                            borderRadius: '.25rem',
-                            padding: '2rem'
-                        }}
-                    >
+                    <p className="responsive-lead testimonial">
                         <i>
                             “Using the 'Web Filter', you can prevent any automatic redirection to malicious websites,
                             protecting your system's security.”{' '}
@@ -496,14 +489,7 @@ export const Main: React.FC<MainProps> = props => {
                         &mdash; Softpedia
                     </p>
 
-                    <p
-                        className="responsive-lead"
-                        css={{
-                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                            borderRadius: '.25rem',
-                            padding: '2rem'
-                        }}
-                    >
+                    <p className="responsive-lead testimonial">
                         <i>
                             “Polarity web browser is meant for any user who requires a lighter, faster, safer, and more
                             stable browser that doesn't track you with the features of modern day web browsers.”{' '}
@@ -511,14 +497,7 @@ export const Main: React.FC<MainProps> = props => {
                         &mdash; Softonic
                     </p>
 
-                    <p
-                        className="responsive-lead"
-                        css={{
-                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                            borderRadius: '.25rem',
-                            padding: '2rem'
-                        }}
-                    >
+                    <p className="responsive-lead testimonial">
                         <i>
                             “Web browser aficionados will want to check out Polarity, which integrates Google's Chromium
                             and Internet Explorer's Trident Web rendering engines in one program.”{' '}
@@ -526,14 +505,7 @@ export const Main: React.FC<MainProps> = props => {
                         &mdash; CNET
                     </p>
 
-                    <p
-                        className="responsive-lead"
-                        css={{
-                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                            borderRadius: '.25rem',
-                            padding: '2rem'
-                        }}
-                    >
+                    <p className="responsive-lead testimonial">
                         <i>
                             “It consumes less CPU & RAM compare to other browser and deliver an excellent browsing
                             experience.”{' '}
@@ -541,29 +513,34 @@ export const Main: React.FC<MainProps> = props => {
                         &mdash; Geekflare
                     </p>
 
-                    <p
-                        className="font-bold"
-                        css={{
-                            fontSize: '7rem',
-                            letterSpacing: '.01rem',
-                            marginTop: '10rem'
-                        }}
-                    >
-                        Make the switch.
-                    </p>
-                    <p className="responsive-lead">
-                        With Polarity's rich functionality, flexibility, and incredible speed, Polarity brings the best
-                        browsing experience in a small package.
-                    </p>
+                    <div className="text-center">
+                        <p
+                            className="font-bold display-0"
+                        >
+                            Make the switch.
+                        </p>
+                        <p className="responsive-lead">
+                            With Polarity's rich functionality, flexibility, and incredible speed, Polarity brings the
+                            best browsing experience in a small package.
+                        </p>
 
-                    <Button size="lg" className="btn-polarity mt-3" css={{
-                        fontSize: '2.25rem'
-                    }}>
-                        Download Polarity Browser for Windows <i className="fas fa-chevron-down ml-2"></i>
-                        <p css={{
-                            fontSize: '1rem'
-                        }}>Ready for Windows 7, 8, 8.1, 10</p>
-                    </Button>
+                        <Button
+                            size="lg"
+                            className="btn-polarity mt-3"
+                            css={{
+                                fontSize: '2.25rem'
+                            }}
+                        >
+                            Download Polarity Browser for Windows <i className="fas fa-chevron-down ml-2"></i>
+                            <p
+                                css={{
+                                    fontSize: '1rem'
+                                }}
+                            >
+                                Ready for Windows 7, 8, 8.1, 10
+                            </p>
+                        </Button>
+                    </div>
                 </div>
             </section>
         </div>
