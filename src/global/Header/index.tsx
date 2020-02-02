@@ -21,14 +21,18 @@ export const HeaderComponent: React.FC<HeaderComponentProps> = props => {
                     zIndex: 2000
                 }}
             >
-                <Navbar.Brand href="#home">Polarity</Navbar.Brand>
+                <Navbar.Brand href="#home" className="d-flex align-items-center"><img className="mr-2" css={{ borderRadius: '3px' }} src="/images/icons/polarity_24x24.png" /> Polarity</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
+                        <Nav.Link className="nav-btn" href="#link">Windows</Nav.Link>
+                        <Nav.Link className="nav-btn" href="#link">Android</Nav.Link>
+                        <Nav.Link className="nav-btn" href="#link">Donate</Nav.Link>
+                        <Nav.Link className="nav-btn" href="#link">About</Nav.Link>
                     </Nav>
-                    <Nav className="ml-auto"></Nav>
+                    <Nav className="ml-auto">
+                        <Button className="nav-btn">Download</Button>
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
         </div>

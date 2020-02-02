@@ -528,18 +528,22 @@ export const Main: React.FC<MainProps> = props => {
                             size="lg"
                             className="btn-polarity mt-3"
                             css={{
-                                fontSize: '2.25rem'
+                                borderRadius: '100px',
+                                fontSize: '1.75rem'
                             }}
                         >
                             Download Polarity Browser for Windows <i className="fas fa-chevron-down ml-2"></i>
                             <p
                                 css={{
-                                    fontSize: '1rem'
+                                    fontSize: '1rem',
+                                    margin: 0
                                 }}
                             >
                                 Ready for Windows 7, 8, 8.1, 10
                             </p>
                         </Button>
+
+                        <p className="mt-2">Or Download the <a href="#">Portable Version</a></p>
                     </div>
                 </div>
             </section>

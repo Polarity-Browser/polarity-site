@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import { Router } from './router';
-import logo from './logo.svg';
 
 import './styles/fonts.scss';
 import './styles/theme.scss';

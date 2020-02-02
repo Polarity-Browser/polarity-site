@@ -4,4 +4,8 @@ nav {
     &.navbar {
         padding: 1rem;
     }
+
+    .nav-link, .nav-btn {
+        padding: .5rem 1rem !important;
+    }
 }
