@@ -1,8 +1,11 @@
 import React from 'react';
 
 import { Navbar, Nav, Form, Button, FormControl, Row } from 'react-bootstrap';
+/** @jsx jsx */
+import { jsx, css } from '@emotion/core';
 
 import './index.scss';
+import { Link } from 'react-router-dom';
 
 interface FooterComponentProps {}
 
@@ -11,37 +14,40 @@ export const FooterComponent: React.FC<FooterComponentProps> = props => {
         <div className="footer text-left">
             <div className="container">
                 <div className="row">
-                    <div className="col">
-                        <div className="h6">Browser</div>
+                    <div className="col-md">
+                        <div className="h6">Versions</div>
                         <hr></hr>
                         <p className="footer__item">
-                            <a href="#">Windows</a>
+                            <Link to="/windows">Windows</Link>
                         </p>
                         <p className="footer__item">
-                            <a href="#">Android</a>
+                            <Link to="/android">Android</Link>
                         </p>
                     </div>
-                    <div className="col">
+                    <div className="col-md">
                         <div className="h6">Polarity</div>
                         <hr></hr>
                         <p className="footer__item">
-                            <a href="#">Privacy</a>
+                            <Link to="/privacy">Privacy</Link>
                         </p>
                         <p className="footer__item">
-                            <a href="#">Press</a>
+                            <Link to="/press">Press</Link>
+                        </p>
+                        <p className="footer__item">
+                            <Link to="/donate">Donate</Link>
                         </p>
                     </div>
-                    <div className="col">
+                    <div className="col-md">
                         <div className="h6">Contributing</div>
                         <hr></hr>
                         <p className="footer__item">
-                            <a href="#">Bug Report</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Bug Report</a>
                         </p>
                         <p className="footer__item">
-                            <a href="#">Github</a>
+                            <a href="https://github.com/Polarity-Browser" target="_blank" rel="noopener noreferrer">Github</a>
                         </p>
                     </div>
-                    <div className="col">
+                    <div className="col-md">
                         <div className="h5">
                             <b>About Polarity</b>
                         </div>
@@ -72,7 +78,7 @@ export const FooterComponent: React.FC<FooterComponentProps> = props => {
             <div className="container">
                 <hr />
                 <div className="d-flex justify-content-between">
-                    <h4 className="d-flex"><img className="mr-2" css={{ borderRadius: '3px' }} src="/images/icons/polarity_24x24.png" /> Polarity</h4>
+                    <h4 className="d-flex"><img className="mr-2" css={{ borderRadius: '3px', width: '28px' }} src="/images/icons/polarity_24x24.png" /> Polarity</h4>
                     <h5>&copy; Polarity {new Date().getFullYear()}</h5>
                 </div>
             </div>

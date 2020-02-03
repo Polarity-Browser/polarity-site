@@ -12,7 +12,8 @@ export const Wave: React.FC<WaveProps> = props => {
 
     return (
         <div className="wave-container" css={{
-            backgroundColor: props.topColor
+            backgroundColor: props.topColor,
+            marginBottom: '-1px'
         }}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path

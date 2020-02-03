@@ -8,6 +8,7 @@ import { RamGraph } from './components';
 import { Wave } from '../../global';
 
 import './index.scss';
+import { Link } from 'react-router-dom';
 
 interface MainProps {}
 
@@ -360,6 +361,15 @@ export const Main: React.FC<MainProps> = props => {
                             <br />
 
                             <p className="responsive-p">
+                                <b>Total Protection</b>
+                            </p>
+                            <p className="responsive-p">
+                                Set <b>per-site rules</b> and block <b>phishing sites</b>, <b>malicious iframes</b>,{' '}
+                                <b>mixed SSL content</b>, and more with a single click.
+                            </p>
+                            <br />
+
+                            <p className="responsive-p">
                                 <b>Faster Speeds</b>
                             </p>
                             <p className="responsive-p">
@@ -389,14 +399,14 @@ export const Main: React.FC<MainProps> = props => {
                     </div>
 
                     <div className="row mt-5">
-                        <div className="col-10">
+                        <div className="col-md-10">
                             <p className="responsive-p">
                                 This was tested on a popular download website with various advertisements embedded on
                                 the page. Both results were started from a <b>cold load</b> of the browser with no
                                 cache.
                             </p>
                         </div>
-                        <div className="col-2">
+                        <div className="col-md-2">
                             <img src="http://polarity.x10.mx/browser/img/legend.PNG" />
                         </div>
                     </div>
@@ -480,9 +490,11 @@ export const Main: React.FC<MainProps> = props => {
                     Still not convinced? Check out all the other features that Polarity has to offer.
                 </p>
                 <br />
-                <Button variant="info" size="lg" className="btn-polarity">
-                    Explore <i className="fas fa-chevron-right ml-2"></i>
-                </Button>
+                <Link to="/windows">
+                    <Button variant="info" size="lg" className="btn-polarity">
+                        Explore <i className="fas fa-chevron-right ml-2"></i>
+                    </Button>
+                </Link>
             </div>
 
             <Wave bottomColor="#640e8e" topColor="#fff" />
@@ -538,7 +550,7 @@ export const Main: React.FC<MainProps> = props => {
                                 fontSize: '1.75rem'
                             }}
                         >
-                            Download Polarity Browser for Windows <i className="fas fa-chevron-down ml-2"></i>
+                            Download Polarity for Windows <i className="fas fa-chevron-down ml-2"></i>
                             <p
                                 css={{
                                     fontSize: '1rem',
