@@ -16,6 +16,7 @@ export const Windows: React.FC<WindowsProps> = props => {
                 css={{
                     alignItems: 'center',
                     display: 'flex',
+                    flexFlow: 'column-reverse',
                     paddingBottom: 0,
                     overflow: 'hidden'
                 }}
@@ -28,15 +29,18 @@ export const Windows: React.FC<WindowsProps> = props => {
                 >
                     <div className="display-3 font-bold mb-5 text-white">Unleash the web.</div>
                     <picture>
-                        <img src="/images/windows_cropped.png" srcSet="
+                        <img
+                            src="/images/windows_cropped.png"
+                            srcSet="
             /images/windows_cropped.png 1x,
             /images/windows2x.png 2x, 
             /images/windows3x.png 3x"
-                                    sizes="
+                            sizes="
             (min-width: 100px) 1559px, 
             (min-width: 2500px) 3118px, 
             (min-width: 3500px) 4677px,
-            1000px" />
+            1000px"
+                        />
                     </picture>
                 </div>
             </div>
@@ -192,6 +196,32 @@ export const Windows: React.FC<WindowsProps> = props => {
                             </p>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <hr
+                css={{
+                    background: 'linear-gradient(to right, #feac5e, #c779d0, #4bc0c8)',
+                    borderRadius: '1rem',
+                    height: '5px',
+                    margin: '0 auto',
+                    maxWidth: '30%'
+                }}
+            />
+            <section className="section--padded">
+                <div className="container text-center">
+                    <p className="h2 mb-3 font-bold">Browse for a Cause</p>
+                    <p className="responsive-lead">
+                        In 2016, Polarity partnered with{' '}
+                        <a href="https://ecosia.org" target="_blank" rel="noopen noreferrer">
+                            Ecosia
+                        </a>{' '}
+                        in a mission to help reforest biodiversity hotspots around the world. Every search will go
+                        towards tree planting projects across the globe.
+                    </p>
+                    <picture>
+                        <img src="/images/ecosia.png" />
+                    </picture>
                 </div>
             </section>
 
@@ -384,27 +414,55 @@ export const Windows: React.FC<WindowsProps> = props => {
                     <div className="row text-center mx-0">
                         <div className="col-lg-4 my-5">
                             <p className="h3">Parallel Sessions</p>
-                            <p className="responsive-p">For users with multiple accounts across different services, it can be hard to be able to keep track of updates that come along. Parallel Sessions is designed to allow the users to be able to access services with <b>multiple</b> accounts in one browser.</p>
+                            <p className="responsive-p">
+                                For users with multiple accounts across different services, it can be hard to be able to
+                                keep track of updates that come along. Parallel Sessions is designed to allow the users
+                                to be able to access services with <b>multiple</b> accounts in one browser.
+                            </p>
                         </div>
                         <div className="col-lg-4 my-5">
                             <p className="h3">Trident Mode</p>
-                            <p className="responsive-p">Polarity also offers an option to utilize the Trident engine for backwards compatibility with other websites.</p>
+                            <p className="responsive-p">
+                                Polarity also offers an option to utilize the Trident engine for backwards compatibility
+                                with other websites.
+                            </p>
                         </div>
                         <div className="col-lg-4 my-5">
                             <p className="h3">Aliases</p>
-                            <p className="responsive-p">Set aliases for your favorite websites. Instead of typing <b>"facebook"</b> for <b>"facebook.com"</b>, you alias <b>"fb"</b> to <b>"facebook.com"</b>. If that's too slow, bind your favorite websites to keyboard shortcuts instead.</p>
+                            <p className="responsive-p">
+                                Set aliases for your favorite websites. Instead of typing <b>"facebook"</b> for{' '}
+                                <b>"facebook.com"</b>, you alias <b>"fb"</b> to <b>"facebook.com"</b>. If that's too
+                                slow, bind your favorite websites to keyboard shortcuts instead.
+                            </p>
                         </div>
                         <div className="col-lg-4 my-5">
                             <p className="h3">UserScripts/UserStyles</p>
-                            <p className="responsive-p">Polarity also supports extensions from Greasy Fork, OpenUserJS, Userscripts.org, and Userstyles to offer additional functionality to each website.</p>
+                            <p className="responsive-p">
+                                Polarity also supports extensions from Greasy Fork, OpenUserJS, Userscripts.org, and
+                                Userstyles to offer additional functionality to each website.
+                            </p>
                         </div>
                         <div className="col-lg-4 my-5">
                             <p className="h3">Keyboard Shortcuts</p>
-                            <p className="responsive-p">Polarity supports a whole host of keyboard shortcuts to make web browsing even more efficient. View all shortcuts <a href="http://polarity.x10.mx/info.html" target="_blank" rel="noopener noreferrer">here</a>.</p>
+                            <p className="responsive-p">
+                                Polarity supports a whole host of keyboard shortcuts to make web browsing even more
+                                efficient. View all shortcuts{' '}
+                                <a href="http://polarity.x10.mx/info.html" target="_blank" rel="noopener noreferrer">
+                                    here
+                                </a>
+                                .
+                            </p>
                         </div>
                         <div className="col-lg-4 my-5">
                             <p className="h3">Mouse Gestures</p>
-                            <p className="responsive-p">Important browser functions can also be accessed by performing mouse commands by right clicking and dragging a pattern.. View all gestures <a href="http://polarity.x10.mx/info.html" target="_blank" rel="noopener noreferrer">here</a>.</p>
+                            <p className="responsive-p">
+                                Important browser functions can also be accessed by performing mouse commands by right
+                                clicking and dragging a pattern.. View all gestures{' '}
+                                <a href="http://polarity.x10.mx/info.html" target="_blank" rel="noopener noreferrer">
+                                    here
+                                </a>
+                                .
+                            </p>
                         </div>
                     </div>
                 </div>
