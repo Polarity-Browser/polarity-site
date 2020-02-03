@@ -2,11 +2,12 @@ import React from 'react';
 
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
-import './index.scss';
 import { InputGroup, FormControl, Button, Nav } from 'react-bootstrap';
 
 import { RamGraph } from './components';
 import { Wave } from '../../global';
+
+import './index.scss';
 
 interface MainProps {}
 
@@ -484,7 +485,7 @@ export const Main: React.FC<MainProps> = props => {
                 </Button>
             </div>
 
-            <Wave backgroundColor="#640e8e" />
+            <Wave bottomColor="#640e8e" topColor="#fff" />
             <section className="section--padded section--download text-white">
                 <div className="container">
                     <p className="display-4 font-bold mb-5">See what others have said about us.</p>
