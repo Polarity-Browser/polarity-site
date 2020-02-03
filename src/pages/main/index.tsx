@@ -379,7 +379,7 @@ export const Main: React.FC<MainProps> = props => {
                         </div>
                         <div className="col-lg-6">
                             <picture>
-                                <img src="http://polarity.x10.mx/browser/img/pBlock.PNG" />
+                                <img src="/images/pBlock.png" />
                             </picture>
                         </div>
                     </div>
@@ -562,7 +562,7 @@ export const Main: React.FC<MainProps> = props => {
                         </Button>
 
                         <p className="mt-2">
-                            Or Download the <a href="#">Portable Version</a>
+                            Or Download the <a href="https://sourceforge.net/projects/polaritybrowser/files/Polarity%20Portable.zip/download" rel="noopener noreferrer">Portable Version</a>
                         </p>
                     </div>
                 </div>

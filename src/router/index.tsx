@@ -8,6 +8,7 @@ import { Android } from '../pages/android';
 import { Donate } from '../pages/donate';
 import { Invalid } from '../pages/invalid';
 import { About } from '../pages/about';
+import { Privacy } from '../pages/privacy';
 
 import { DefaultLayout } from '../layout';
 
@@ -42,6 +43,11 @@ export const Router = (injectedProps: any) => {
             <Route path='/about' exact render={(props: any) => (
                 <DefaultLayout>
                     <About {...props}></About>
+                </DefaultLayout>
+            )} />
+            <Route path='/privacy' exact render={(props: any) => (
+                <DefaultLayout>
+                    <Privacy {...props}></Privacy>
                 </DefaultLayout>
             )} />
             <Route component={Invalid} /> {/* This needs to be 404 component */}
