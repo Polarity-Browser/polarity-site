@@ -52,9 +52,11 @@ export const Download: React.FC<DownloadProps> = props => {
                             <picture>
                                 <img src="/images/polarity3.png" />
                             </picture>
-                            <Button variant="info" className="px-3 py-3 mt-5">
-                                Download
-                            </Button>
+                            <a href="https://sourceforge.net/projects/polaritybrowser/files/latest/download">
+                                <Button variant="info" className="px-3 py-3 mt-5">
+                                    Download
+                                </Button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -85,9 +87,11 @@ export const Download: React.FC<DownloadProps> = props => {
                             <picture>
                                 <img src="/images/polarity9.png" />
                             </picture>
-                            <Button variant="info" className="px-3 py-3 mt-5">
-                                Download
-                            </Button>
+                            <a href="https://sourceforge.net/projects/polaritybrowser/files/latest/download">
+                                <Button variant="info" className="px-3 py-3 mt-5">
+                                    Download
+                                </Button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -118,9 +122,11 @@ export const Download: React.FC<DownloadProps> = props => {
                             <picture>
                                 <img src="/images/polarity8.png" />
                             </picture>
-                            <Button variant="info" className="px-3 py-3 mt-5">
-                                Download
-                            </Button>
+                            <a href="https://sourceforge.net/projects/polaritybrowser/files/Polarity%20Portable%20-%208.zip/download">
+                                <Button variant="info" className="px-3 py-3 mt-5">
+                                    Download
+                                </Button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -151,9 +157,11 @@ export const Download: React.FC<DownloadProps> = props => {
                             <picture>
                                 <img src="/images/polarity7.png" />
                             </picture>
-                            <Button variant="info" className="px-3 py-3 mt-5">
-                                Download
-                            </Button>
+                            <a href="https://sourceforge.net/projects/polaritybrowser/files/Polarity%20Portable%20-%20XP.zip/download">
+                                <Button variant="info" className="px-3 py-3 mt-5">
+                                    Download
+                                </Button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -183,9 +191,37 @@ export const Download: React.FC<DownloadProps> = props => {
                             <picture>
                                 <img src="/images/polarity3.jpg" />
                             </picture>
-                            <Button variant="info" className="px-3 py-3 mt-5">
-                                Download
-                            </Button>
+                            <a href="https://www.dropbox.com/s/5rcla0mew0sjzc1/Polarity%20Installer%203.3.1.exe?dl=1">
+                                <Button variant="info" className="px-3 py-3 mt-5">
+                                    Download
+                                </Button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section><section className="section--padded">
+                <div className="container">
+                    <p className="h1">Polarity 5.1.6 for Android</p>
+                    <hr />
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <p>
+                                <b>Requirements</b>
+                            </p>
+                            <ul>
+                                <li>Android 4.0 or higher, Amazon Fire Phone, Kindle Tablets, BlackBerry.</li>
+                            </ul>
+                        </div>
+                        <div className="col-lg-6 text-right">
+                            <picture>
+                                <img src="/images/android.png" />
+                            </picture>
+                            <br />
+                            <a href="https://play.google.com/store/apps/details?id=pcr.browser.polarity&hl=en_US">
+                                <Button variant="info" className="px-3 py-3 mt-5">
+                                    Download
+                                </Button>
+                            </a>
                         </div>
                     </div>
                 </div>
