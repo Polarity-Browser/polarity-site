@@ -11,6 +11,7 @@ import { About } from '../pages/about';
 import { Privacy } from '../pages/privacy';
 
 import { DefaultLayout } from '../layout';
+import { Download } from '../pages/download';
 
 interface RouterProps {
 
@@ -48,6 +49,11 @@ export const Router = (injectedProps: any) => {
             <Route path='/privacy' exact render={(props: any) => (
                 <DefaultLayout>
                     <Privacy {...props}></Privacy>
+                </DefaultLayout>
+            )} />
+            <Route path='/download' exact render={(props: any) => (
+                <DefaultLayout>
+                    <Download {...props}></Download>
                 </DefaultLayout>
             )} />
             <Route component={Invalid} /> {/* This needs to be 404 component */}
