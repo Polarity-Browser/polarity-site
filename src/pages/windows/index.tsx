@@ -460,7 +460,7 @@ export const Windows: React.FC<WindowsProps> = props => {
                             <p className="h3">Mouse Gestures</p>
                             <p className="responsive-p">
                                 Important browser functions can also be accessed by performing mouse commands by right
-                                clicking and dragging a pattern.. View all gestures{' '}
+                                clicking and dragging a pattern. View all gestures{' '}
                                 <a href="http://polarity.x10.mx/info.html" target="_blank" rel="noopener noreferrer">
                                     here
                                 </a>

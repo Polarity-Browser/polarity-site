@@ -44,28 +44,51 @@ export const Main: React.FC<MainProps> = props => {
                             </p>
                             <br />
                             <p>
-                                Polarity is currently still in development, sign up for our newslatter for all the
+                                Polarity is currently still in development, sign up for our newsletter for all the
                                 latest updates.
                             </p>
 
-                            <InputGroup
-                                className="mb-3"
-                                css={{
-                                    boxShadow: '0 36px 51px 0 rgba(0, 0, 0, .1)'
-                                }}
+                            <form
+                                action="https://netlify.us4.list-manage.com/subscribe/post?u=987061753671eccaad87a4bc0&amp;id=be8c0da93c"
+                                method="post"
+                                id="mc-embedded-subscribe-form"
+                                name="mc-embedded-subscribe-form"
+                                target="_blank"
+                                noValidate
                             >
-                                <FormControl
-                                    placeholder="Your email address"
-                                    aria-label="Your email address"
-                                    aria-describedby="basic-addon2"
+                                <InputGroup
+                                    className="mb-3"
                                     css={{
-                                        height: '4rem'
+                                        boxShadow: '0 36px 51px 0 rgba(0, 0, 0, .1)'
                                     }}
-                                />
-                                <InputGroup.Append>
-                                    <Button variant="info">Receive Updates</Button>
-                                </InputGroup.Append>
-                            </InputGroup>
+                                >
+                                    <FormControl
+                                        placeholder="Your email address"
+                                        aria-label="Your email address"
+                                        aria-describedby="basic-addon2"
+                                        type="email"
+                                        name="EMAIL"
+                                        id="mce-EMAIL"
+                                        required
+                                        css={{
+                                            height: '4rem'
+                                        }}
+                                    />
+                                    <InputGroup.Append>
+                                        <Button type="submit" variant="info">
+                                            Receive Updates
+                                        </Button>
+                                    </InputGroup.Append>
+                                </InputGroup>
+                                <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
+                                    <input
+                                        type="text"
+                                        name="b_987061753671eccaad87a4bc0_be8c0da93c"
+                                        tabIndex={-1}
+                                        value=""
+                                    />
+                                </div>
+                            </form>
                         </div>
                         <div className="col-lg-7 splash__img">
                             <picture
