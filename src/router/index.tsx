@@ -9,9 +9,10 @@ import { Donate } from '../pages/donate';
 import { Invalid } from '../pages/invalid';
 import { About } from '../pages/about';
 import { Privacy } from '../pages/privacy';
+import { Download } from '../pages/download';
+import { Contact } from '../pages/contact';
 
 import { DefaultLayout } from '../layout';
-import { Download } from '../pages/download';
 
 interface RouterProps {
 
@@ -54,6 +55,11 @@ export const Router = (injectedProps: any) => {
             <Route path='/download' exact render={(props: any) => (
                 <DefaultLayout>
                     <Download {...props}></Download>
+                </DefaultLayout>
+            )} />
+            <Route path='/contact' exact render={(props: any) => (
+                <DefaultLayout>
+                    <Contact {...props}></Contact>
                 </DefaultLayout>
             )} />
             <Route component={Invalid} /> {/* This needs to be 404 component */}
