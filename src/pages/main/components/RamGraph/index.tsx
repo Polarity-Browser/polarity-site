@@ -69,35 +69,35 @@ export const RamGraph: React.FC<RamGraphProps> = props => {
                     backgroundColor: buildChartTheme(canvas, 400, 'rgba(62, 187, 236, 1)'),
                     borderColor: 'rgba(62, 187, 236, 1)',
                     borderWidth: 3,
-                    data: [5.5, 20, 30, 40]
+                    data: [9.3, 46.7, 232.2, 364.6]
                 },
                 {
                     label: 'Google Chrome',
                     backgroundColor: buildChartTheme(canvas, 400, 'rgba(26, 162, 96, 1)'),
                     borderColor: 'rgba(26, 162, 96, 1)',
-                    borderWidth: 3,
-                    data: [5.5, 20, 30, 40]
+                    borderWidth: 1,
+                    data: [531.5, 1017.4, 1721.9, 2579.3]
                 },
                 {
                     label: 'Firefox',
                     backgroundColor: buildChartTheme(canvas, 400, 'rgba(253, 107, 84, 1)'),
                     borderColor: 'rgba(253, 107, 84, 1)',
-                    borderWidth: 3,
-                    data: [5.5, 20, 30, 40]
+                    borderWidth: 1,
+                    data: [290.0, 547.6, 932.8, 1896.0]
                 },
                 {
-                    label: 'Internet Explorer',
+                    label: 'Polarity (without active GC)',
                     backgroundColor: buildChartTheme(canvas, 400, 'rgba(52, 234, 255, 1)'),
                     borderColor: 'rgba(52, 234, 255, 1)',
                     borderWidth: 3,
-                    data: [72, 180, 300, 646]
+                    data: [133.4, 425, 978.5, 1689.3]
                 },
                 {
                     label: 'Edge',
                     backgroundColor: buildChartTheme(canvas, 400, 'rgba(12, 95, 185, 1)'),
                     borderColor: 'rgba(12, 95, 185, 1)',
-                    borderWidth: 3,
-                    data: [5.5, 20, 30, 40]
+                    borderWidth: 1,
+                    data: [159.4, 697.7, 1477.9, 2280.2]
                 }
             ]
         };
