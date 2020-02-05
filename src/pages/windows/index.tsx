@@ -2,9 +2,10 @@ import React from 'react';
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
 import { Button } from 'react-bootstrap';
+import { Wave } from '../../global';
+import { Link } from 'react-router-dom';
 
 import './index.scss';
-import { Wave } from '../../global';
 
 interface WindowsProps {}
 
@@ -61,16 +62,18 @@ export const Windows: React.FC<WindowsProps> = props => {
                         DoNotTrack and Privoxy allow users to browse with confidence. With a wide selection of apps,
                         themes, and extensions, you'll feel right at home with Polarity.
                     </p>
-                    <Button
-                        variant="info"
-                        size="lg"
-                        className="btn-polarity mt-3"
-                        css={{
-                            borderRadius: '100px'
-                        }}
-                    >
-                        Download Polarity <i className="fas fa-chevron-down ml-2"></i>
-                    </Button>
+                    <Link to="/download">
+                        <Button
+                            variant="info"
+                            size="lg"
+                            className="btn-polarity mt-3"
+                            css={{
+                                borderRadius: '100px'
+                            }}
+                        >
+                            Download Polarity <i className="fas fa-chevron-down ml-2"></i>
+                        </Button>
+                    </Link>
                 </div>
             </section>
             <Wave bottomColor="#fff" topColor="#edf5ff" />

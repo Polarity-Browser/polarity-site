@@ -3,12 +3,12 @@ import React from 'react';
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
 import { InputGroup, FormControl, Button, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import { RamGraph } from './components';
 import { Wave } from '../../global';
 
 import './index.scss';
-import { Link } from 'react-router-dom';
 
 interface MainProps {}
 
@@ -541,28 +541,36 @@ export const Main: React.FC<MainProps> = props => {
                             best browsing experience in a small package.
                         </p>
 
-                        <Button
-                            variant="info"
-                            size="lg"
-                            className="btn-polarity mt-3"
-                            css={{
-                                borderRadius: '100px',
-                                fontSize: '1.75rem'
-                            }}
-                        >
-                            Download Polarity for Windows <i className="fas fa-chevron-down ml-2"></i>
-                            <p
+                        <Link to="/download">
+                            <Button
+                                variant="info"
+                                size="lg"
+                                className="btn-polarity mt-3"
                                 css={{
-                                    fontSize: '1rem',
-                                    margin: 0
+                                    borderRadius: '100px',
+                                    fontSize: '1.75rem'
                                 }}
                             >
-                                Ready for Windows 7, 8, 8.1, 10
-                            </p>
-                        </Button>
+                                Download Polarity for Windows <i className="fas fa-chevron-down ml-2"></i>
+                                <p
+                                    css={{
+                                        fontSize: '1rem',
+                                        margin: 0
+                                    }}
+                                >
+                                    Ready for Windows 7, 8, 8.1, 10
+                                </p>
+                            </Button>
+                        </Link>
 
                         <p className="mt-2">
-                            Or Download the <a href="https://sourceforge.net/projects/polaritybrowser/files/Polarity%20Portable.zip/download" rel="noopener noreferrer">Portable Version</a>
+                            Or Download the{' '}
+                            <a
+                                href="https://sourceforge.net/projects/polaritybrowser/files/Polarity%20Portable.zip/download"
+                                rel="noopener noreferrer"
+                            >
+                                Portable Version
+                            </a>
                         </p>
                     </div>
                 </div>

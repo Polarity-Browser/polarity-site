@@ -50,7 +50,7 @@ export const Download: React.FC<DownloadProps> = props => {
                         </div>
                         <div className="col-lg-6 text-right">
                             <picture>
-                                <img src="/images/polarity3.png" />
+                                <img src="/images/polarity10_50.png" />
                             </picture>
                             <a href="https://sourceforge.net/projects/polaritybrowser/files/latest/download">
                                 <Button variant="info" className="px-3 py-3 mt-5">
