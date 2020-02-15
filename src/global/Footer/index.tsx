@@ -41,7 +41,7 @@ export const FooterComponent: React.FC<FooterComponentProps> = props => {
                         <div className="h6">Contributing</div>
                         <hr></hr>
                         <p className="footer__item">
-                            <a href="#" target="_blank" rel="noopener noreferrer">Bug Report</a>
+                            <Link to="/contact">Bug Report</Link>
                         </p>
                         <p className="footer__item">
                             <a href="https://github.com/Polarity-Browser" target="_blank" rel="noopener noreferrer">Github</a>

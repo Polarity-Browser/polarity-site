@@ -27,7 +27,7 @@ export const Donate: React.FC<DonateProps> = props => {
                 </div>
             </div>
             <section className="section--padded">
-                <div className="container text-center">
+                <div className="container text-left">
                     <p className="h1 mb-3">Polarity is a browser made for the people.</p>
                     <p className="responsive-lead">
                         Polarity prides itself in delivering the best browsing experience it can without having to
@@ -40,7 +40,7 @@ export const Donate: React.FC<DonateProps> = props => {
                         amount of donations will be more than enough to keep this project running. I value user feedback
                         highly so do not hesitate to email me any suggestions or concerns you may have.
                     </p>
-                    <p className="responsive-lead mb-5">
+                    <p className="responsive-lead mb-3">
                         So please consider donating even a small amount to keep the project going. I would greatly
                         appreciate it.
                     </p>
@@ -52,7 +52,7 @@ export const Donate: React.FC<DonateProps> = props => {
                 </div>
             </section>
             <section className="section--padded">
-                <div className="container text-center">
+                <div className="container text-left">
                     <p className="h1 mb-3">How else can you help?</p>
                     <p className="responsive-lead">
                         Since 2016, Polarity partnered with{' '}

@@ -170,7 +170,29 @@ export const Main: React.FC<MainProps> = props => {
                             <div>
                                 <RamGraph />
                             </div>
-                            <span>Test conducted with </span>
+                            <span>
+                                Test conducted on Windows 10 <sup>1</sup>.
+                            </span>
+                        </div>
+
+                        <div
+                            className="my-5"
+                            css={{
+                                backgroundColor: '#eee',
+                                borderRadius: '.25rem',
+                                color: '#888',
+                                fontSize: '.8rem',
+                                padding: '.5rem'
+                            }}
+                        >
+                            <ol>
+                                <li>
+                                    Benchmark conducted by Polarity in February 2020 using a production 1.8GHz quad-core
+                                    Intel Core i7-based 17-inch Asus Vivobook Pro with 16GB RAM, 256GB SSD, 1TB HDD and
+                                    Windows 10.0.18362.592. Browsers tested included default installations of Polarity 10.0.0 pre-release,
+                                    Firefox 72.0, Chrome 80.0.3987.87, and Edge 80.0.361.48.
+                                </li>
+                            </ol>
                         </div>
                     </div>
                 </div>

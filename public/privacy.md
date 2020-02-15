@@ -22,7 +22,7 @@ Google Analytics is currently in use on this website, Polarity, and Polarity Sea
 
 ## Transparency
 
-There are no backdoors in any programs and services offered by Polarity. There have also been no requests from <span>a National Security Letter, FISA order, or any other classified request for user information.</span>
+There are no backdoors in any programs and services offered by Polarity. There have also been no requests from a National Security Letter, FISA order, or any other classified request for user information.
 
 ## Questions?
 
