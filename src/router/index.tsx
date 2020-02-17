@@ -11,6 +11,7 @@ import { About } from '../pages/about';
 import { Privacy } from '../pages/privacy';
 import { Download } from '../pages/download';
 import { Contact } from '../pages/contact';
+import { Press } from '../pages/press';
 
 import { DefaultLayout } from '../layout';
 
@@ -60,6 +61,11 @@ export const Router = (injectedProps: any) => {
             <Route path='/contact' exact render={(props: any) => (
                 <DefaultLayout>
                     <Contact {...props}></Contact>
+                </DefaultLayout>
+            )} />
+            <Route path='/press' exact render={(props: any) => (
+                <DefaultLayout>
+                    <Press {...props}></Press>
                 </DefaultLayout>
             )} />
             <Route component={Invalid} /> {/* This needs to be 404 component */}
