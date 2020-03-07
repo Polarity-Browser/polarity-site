@@ -1,8 +1,6 @@
 import React from 'react';
-import { Switch, Redirect, Route } from 'react-router';
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
-import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
 interface PressProps {}
