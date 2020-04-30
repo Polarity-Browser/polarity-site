@@ -79,7 +79,7 @@ export const Download: React.FC<DownloadProps> = props => {
                                 <b>Stats</b>
                             </p>
                             <ul>
-                                <li>HTLM5 Test: 513 nnnnnm /555</li>
+                                <li>HTLM5 Test: 513/555</li>
                                 <li>Acid 3 Test: 100/100</li>
                             </ul>
                         </div>

@@ -44,8 +44,7 @@ export const Main: React.FC<MainProps> = props => {
                             </p>
                             <br />
                             <p>
-                                Polarity is currently still in development, sign up for our newsletter for all the
-                                latest updates.
+                                Polarity 10 is out! However, feel free to sign up for our newsletter for updates on future projects.
                             </p>
 
                             <form
