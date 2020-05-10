@@ -37,6 +37,9 @@ export const HeaderComponent: React.FC<HeaderComponentProps> = props => {
                         <Link to="/android">
                             <NavItem className="nav-btn">Android</NavItem>
                         </Link>
+                        <Link to="/changelog">
+                            <NavItem className="nav-btn">Changelogs</NavItem>
+                        </Link>
                         <Link to="/donate">
                             <NavItem className="nav-btn">Donate</NavItem>
                         </Link>

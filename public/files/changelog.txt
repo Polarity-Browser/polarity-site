@@ -1,0 +1,804 @@
+Polarity v.10.0.1 (4/30/20)
+Sanitized url to remove query string and fragments for Polarpass to autofill correctly, fixed issue where copying image did not save to clipboard.
+
+Polarity v.10.0.0 (2/29/20)
+Refactored most classes and components within the browser, upgraded engine to Cefsharp 79, removed experimental features that did not work anymore, fixed breaking changes when upgrading Cefsharp, fixed crashes and performance deficiencies in Control Center, fixed Trident tabs from launching to the wrong url, corrected save dialog text for reading list, fixed double navigation when using mouse navigation buttons, deprecated Youtube Downloader and Flash mode for Youtube, fixed coloring for incognito mode.
+
+Polarity v.9.3.9 (3/20/19)
+Bug fixes and updated UAs
+
+Polarity v.9.3.8 (1/21/19)
+Fixed issue where tab was not loading initially, fixed poor scaling for larger screens in Settings tab
+
+Polarity v.9.3.7 (12/27/18)
+Updated code base, refactored tabs and main browser components.
+
+Polarity v.9.3.6 (4/7/18)
+Updated search engine settings and added search suggestions from Ecosia
+
+Polarity v.9.3.5 (3/7/18)
+Minor bug fixes
+
+Polarity v.9.3.4 (1/20/18)
+Fixed slow bookmark management and loading with having a few hundred bookmarks
+
+Polarity v.9.3.3 (1/6/18)
+Fixed tab stuttering when dragging, updated UAs
+
+Polarity v.9.3.2 (12/31/17)
+Some minor fixes
+
+Polarity v.9.3.1 (12/21/17)
+Fixed issue where tabs shift back too slowly with pinned tabs, increased tab control efficiency and speed, increased browser startup speed, fixed crashing issue in ControlCenter
+
+Polarity v.9.3.0 (12/9/17)
+Fixed up some minor bugs and faster tab system
+
+Polarity v.9.2.9 (10/7/17)
+Updated UAs
+
+Polarity v.9.2.8 (9/16/17)
+Fixed bug where opening control center crashed the browser, fixed Document Explorer Crash
+
+Polarity v.9.2.7 (9/2/17)
+Minor bug fixes
+
+Polarity v.9.2.6 (8/26/17)
+Browser optimizations, updated autocomplete menu in Trident tabs and UI, added Baidu search suggestions as an option for omnibar
+
+Polarity v.9.2.5 (8/19/17)
+Some more bug ixes, fixed bug where disabling autohide omnibar would not unhide hidden omnibars across browser tabs
+
+Polarity v.9.2.4 (8/12/17)
+Some fixes to the browser in regards to updating, refactored code for efficiency and lighter file size
+
+Polarity v.9.2.3 (8/5/17)
+Fixed mobile mode with weblight infinitely looping, added Data Saver option in Performance in Settings.
+
+Polarity v.9.2.2 (7/30/17)
+Minor bug fixes
+
+Polarity v.9.2.1 (7/22/17)
+Fixed many breaking changes from last update, bookmarks structure and load fixed for bar and menu, importing bookmarks from Chrome will retain folder structure, fixed bug in importing all open tabs, fixed crash when deleting bookmark within nested folder, fixed issue when deleting bookmarks from bookmarks bar
+
+Polarity v.9.2.0 (7/15/17)
+Fixed bug where bookmarks were incorrectly imported from Firefox HTML files, reduced browser overhead when containing many bookmarks, improved browser stability, increased browser responsiveness and speed, lowered startup CPU usage.
+
+Polarity v.9.1.9 (7/8/17)
+Added better bookmark handling, ability to nest folders within bookmark folders added.
+
+Polarity v.9.1.8 (7/1/17)
+Minor color scheme changes throughout the browser.
+
+Polarity v.9.1.7 (6/24/17)
+Fixed bug where downloading files would crash the browser, fixed contextmenu crashes.
+
+Polarity v.9.1.6 (6/18/17)
+Fixed a few bugs in addon downloader, users can now whitelist sites from dropdown notification above when blocked by pBlock (for HTTPS/SSL conflicts only), added button to reload tracking protection database from file, updated Flash, worked on asynchronous calls to make tabcontrol more responsiv, updated UAs, enabled high DPI support, updated ad filters with EasyList and EasyPrivacy, added indicator for opening a file when completed from the downloads bar, added preset VPNs with 10 locations around the world
+
+Polarity v.9.1.5 (6/9/17)
+Some minor updates.
+
+Polarity v.9.1.4 (5/21/17)
+Fixed crashing issue when inserting new user into PolarPass.
+
+Polarity v.9.1.3 (5/14/17)
+Minor fixes to browser
+
+Polarity v.9.1.2 (5/6/17)
+Automatically refresh all tabs when reconnect to the internet, fixed bug where deleting last bookmark item in folder in bookmarks bar did not delete the directory
+
+Polarity v.9.1.1 (4/30/17)
+Automatically refresh all tabs when reconnect to the internet, added opening downloaded file on right click for download instance in downloads bar
+
+Polarity v.9.1.0 (4/22/17)
+Fixed bug where changing locale in browser did not work, updated to Cef 57, issue fixed where localized menus did not load, fixed issue where browser did not connect through proxy, engine cleanup, updated UAs, better HTML5 standards compliance.
+
+Polarity v.9.0.5 (4/16/17)
+Bug fixes with encryption and decryption in PolarPass, updated UAs.
+
+Polarity v.9.0.4 (4/8/17)
+Fixed crashing issue where GDI+ crashes the browser when loading long urls in the autocomplete menu
+
+Polarity v.9.0.3 (3/25/17)
+Fixed bug where bookmark link breaks when the url contains '@' after clicking from favorites menu, fixed bug where removing a bookmark item from the favorites bar would not delete empty folders, updated UAs
+
+Polarity v.9.0.2 (3/15/17)
+Fixed GUI in Settings applet, fixed bug where apps would not download in Polarity Portable, menu now automatically shows scrollbar for when the browser window is too short, updated Spanish translation, added autohide omnibar option when scrolling down pages.
+
+Polarity v.9.0.1 (3/11/17)
+Fixed finder bug where it would continue to find text even after reloading, fixed bug where adding an article with a long title to reading list failed, updated error message for better explanation for GDI+ error on start.
+
+Polarity v.9.0.0 (2/25/17)
+Updated default theme, status label now hides when hovered, indicates if fields were autofilled by polarpass, updated error page UIs, Fixed Dropbox uploading issue, Updated find function to be much more accurate with better UI., new experimental canvas features, enabled Nacl, Fixed issues with context menu in iframes, Fixed directory issues, Improved theming system which allows users to automatically let Polarity correct low contrasting themes., Fixed major bug with removing bookmarks., Fixed bug where turning of proxies does not work., Switched to Instapaper from Readability for Reading Mode, More engine optimizations for speed and lower memory usage, Much faster processing of History items, Updated Print to PDF, updated security icons, Updated drop down menu UI, Fixed bookmark deleting bug, Adjusted Settings tab to be better suited with larger displays., Updated ad block filters, updated UAs, fixed Trident Mode bugs, Fixed issue where PolarPass coud not detect fill form, Option to hide bookmarks bar with right click menu in bookmarks bar, Added option to only autofill username or only autofill password in polarpass., support with loading localhost pages, Fixed Youtube popup player crash, fixed directory bug where program path changes after open file dialog is used, option to view archive version of website powered by Wayback Machine if the website is could not be loaded, redesigned menu sidebar with the apps bar moved to the right side, keyboard shortcuts now listed in context menus, updated button components, fixed DPI issues with downloader, notification bar, and other parts of the browser, sped up tabcontrol performance, File explorer facelift with option to disable, adaptable browser icons and shadows for light and dark UIs, theme files now support pictures, Fixed issue where invalid folder paths caused Polarity to crash in add bookmark dialog, Fixed context menu scaling on higher DPI monitors, Fixed tooltips not appearing when hovering over tabs, Added PhishTank integration to keep track of phishing and malware infested sites, Option to scroll tabs with mousewheel, Fixed window border adjustment size issues, Added compression options in Settings tab under Performance, Fixed inconsistent theming with find box in popup windows, Fixed strangely proportioned icons, Back and forward mouse buttons are supported again.
+
+Polarity v.8.4.4 (2/4/17)
+Bug fixes in deleting bookmarks.
+
+Polarity v.8.4.3 (1/22/17)
+Fixed issues with creating folders in bookmarks manager.
+
+Polarity v.8.4.2 (1/15/17)
+Fixed bug where loading locked local image crashes the browser, fixed other issues.
+
+Polarity v.8.4.1 (1/5/17)
+Fixed bug where apps would not download, updated adblock list location
+
+Polarity v.8.4.0 (12/24/16)
+Fixed minor bugs, fixed glitches when download apps, fixed issue where alt keyboard commands do not fire
+
+Polarity v.8.3.9 (12/17/16)
+Fixed issues where popup window doesn't load userscripts.
+
+Polarity v.8.3.8 (12/3/16)
+Minor patches to the browser.
+
+Polarity v.8.3.7 (11/19/16)
+Disabled WOT for privacy concerns by default, fixed issues with directory listing and paths, alt + D now focuses address bar.
+
+Polarity v.8.3.6 (11/5/16)
+Bug fixes with favorites and other parts of the browser.
+
+Polarity v.8.3.5 (10/25/16)
+File system fixes, fixed dependency issues, fixed minor mistakes in welcome dialog.
+
+Polarity v.8.3.4 (10/22/16)
+Bug fixes with type casting, minor memory optimizations.
+
+Polarity v.8.3.3 (10/8/16)
+Smarter popup dialog management which will show the appropriate popup dialog per link request, bookmark folders will now appear in the bookmarks bar, added ability to install language packs, fixed bug where you can't uncheck the option that made the browser use the system locale, fixed bug where saving webpage as image produced white image.
+
+Polarity v.8.3.2 (9/24/16)
+More code optimization, introduction of async function calls to make program more responsive, slight decrease in shadows around tab area, option to make new tabs open in the background, much more efficient GC collection, optimized background tasks to use less memory.
+
+Polarity v.8.3.1 (9/11/16)
+Many updates to internals, more I/O optimization, updated algorithms to make them much faster, fixed bug where history kept reversing when refreshing the history in the history applet.
+
+Polarity v.8.3.0 (9/4/16)
+Small update to new tab page, added different display modes to bookmarks bar buttons, fixed bugs with radio buttons in settings applet, lots of code optimization.
+
+Polarity v.8.2.9 (8/26/16)
+Fixed DPI scaling of downloads panel, fixed alignment of download items, fixed bug where opening Google Drive files with third party apps would not load, fixes to webcheck notifications when entering a malicious website, fixed index out of bounds error in Advanced Settings panel, code optimization in bookmarks, updated AdBlock total hosts lists, fixed DPI scaling of the address bar, fixed DPI scaling of the find dialog, ability to have separate zoom levels for each tab, fixed issue where zooming with keyboard and mouse shortcuts froze the browser.
+
+Polarity v.8.2.8 (8/19/16)
+Fixed much of the scaling issues for screens with higher PPIs, updated Trident mode, added more parts to offline app API (powerSaver, executing programs, etc...), better implementation of bookmark dialog when adding all open tabs,, switched to Qualys for better plugin checking,, fixed Mobile View mode bug on Ecosia, updated PolarSync so it doesn't close Polarity before the user settings are saved, updated UAs, disable open in new tab for offline apps, fixed bug where bookmarks bar would cover parts of the website, fixed bug where leaving the username and password empty in proxy mode would generate random strings that filled the preferences file with bloat, more minor bug fixes, fixed where the wrench button in the find dialog in the popup window would not expand the find dialog.
+
+Polarity v.8.2.7 (8/13/16)
+Added animations to autocomplete menu, stronger power saver mode which now disables WebGL, increased raster thread count, enabled QUIC protocol for power saver mode, less jumpy autocomplete menu, fixed DPI scaling that caused mouse to be off on context menu selections, changed behavior for when Polarity warns users about malicious sites, added ctrl + mousewheel combo for scrolling, fixed bug where zoom levels did not update in the drop down panel.
+
+Polarity v.8.2.6 (8/6/16)
+Fixed translating errors which caused the browser to crash, integrated Cipher (password generator) into PolarPass, updated Settings applet UI slightly with slightly different shades of color, revamped alias system with the addition of keybinding for websites, addition of settings API, fixed issue where proxy credentials were modified by too many encryption calls, fixed issue with about:blank resulting in a search instead of a blank page.
+
+Polarity v.8.2.5 (7/30/16)
+Fixed casting errors in applets and tabs, fixed browser crash when translating to Spanish in nonportable version of browser, favicons of paused tabs will have lower opacity, added proxy authentication support, faster IO in bookmarks and history storage, updated design of Polarity notification manager, patched incorrect input formats for dialogs, added Battery Saving mode.
+
+Polarity v.8.2.4 (7/23/16)
+Ability to bookmark all open tabs into a specific folder, added ability to import bookmarks to a specific folder, updated text to speech UI, minor bug fixes.
+
+Polarity v.8.2.3 (7/18/16)
+Fixed bookmark out of bounds issues, fixed casting error when setting online image as theme with specific image opacity.
+
+Polarity v.8.2.2 (7/16/16)
+Dialog UI updates, fix bug where bookmark name does not correspond with bookmark url after searching, addition of folder support for bookmarks, new add bookmark dialog which allows users to modify bookmark details and folder destination, option to toggle between folders in bookmark applet.
+
+Polarity v.8.2.1 (7/9/16)
+Minor changes and updates to app window, better offline app performance, first patch to fix openuserJS issues.
+
+Polarity v.8.2.0 (7/4/16)
+Offline installation bug fixes, PolarPass copy command fixes, PolarPass updates, ability to toggle between hidden password char and plaintext when creating a new entry, extended encryption to cover all data managed by PolarPass, clipboard automatically cleared after copying username or password in PolarPass after 10 seconds, password strength meter added to PolarPass, increased encryption strength to AES 256-bit for PolarPass data , vulnerability patches to PolarPass, option to use master password for PolarPass over system password, DPI scaling fixes, faster I/O operations when opening and closing the browser, update to Privoxy 3.0.25, fixed bugs when installing new themes where themes don't fully apply, fixed bug where encoding information would not appear on page load, app window now displays custom app urls.
+
+Polarity v.8.1.9 (6/25/16)
+UA changes, updated app management, app API changes that allow the creation of apps that use locally stored scripts or pages without breaking old app compatiblity, fixed issue where extensions won't run after installation until the browser restarted, Netflix fixes in popup window, ability to force autofill login forms in PolarPass window, popup windows now show app icon as icon, fixed bug where Polarity crashes when starting a new download in download applet, fixed graphical glitches in extensions window.
+
+Polarity v.8.1.8 (6/18/16)
+Fixed themeing issues where omnibox is positioned incorrectly after changing themes, fixed bug where back and forward buttons do not update correctly when changing themes, settings ui bug fix, bug fix where Ctrl + L did not show autocomplete menu, updated icons in menu panel for better visibility with dark colored themes, context menu cleanup in menu panel, fixed scrollbar not appearing in control center, updated language files, updated UAs.
+
+Polarity v.8.1.7 (6/11/16)
+Fixed theme issues, context menu fixes on dropbox, autocomplete bug fixes and performance boost, dialog UI updates with more flexible theme handling, alias manager UI update, some new icons added, confirm messagebox dialog with enter key.
+
+Polarity v.8.1.6 (6/3/16)
+Bug fixes, fixed keyboard shortcut issues where pressing '{' shows Document Explorer, bug fix for mega.nz downloads where downloads will not load, added website filter to popup window, script downloading through popup window, fixed top site dialog crash when hitting enter, updated functionality in top sites dialog, fixed bookmarking bugs where clicking option creates error, added dev tool access to popup window.
+
+Polarity v.8.1.5 (5/30/16)
+Updated messageboxes with better functionality and UI, messagebox bug fixes, settings applet UI update, added top sites and donate options to settings applet, updated adblock filters, mouse gesture fixes where functions are executed more than once, backend JS optimizations, stability patches to popup window, fixed keyboard shortcut issues, fixed authentication and popup issues when logging into sites with third party services, geolocation and dialog fixes in popup window.
+
+Polarity v.8.1.3 (5/23/16)
+Fixed confirm dialogs not returning the correct results, fixed bug where Portable mode did not delete or report the size of the correct cache folder, bug fixes to forget button where cache would not be deleted, other bug fixes, first patches to stop random crashes added, fixed issue where omnibar results don't appear when user is disconnected from the internet, new tab page changes for Trident tabs, fixed 404 error code pages not displaying.
+
+Polarity v.8.1.2 (5/20/16)
+Optimizations to click to play, fixed issues where omnibar list of favorites and top sites won't refresh after modifying bookmarks and top sites, double left clicking on window now maximizes/restores the browser window, double right click on window opens a new tab, cache folder in portable mode moved to same folder as the browser location, option to load webpages with system language, fixed bug where user set search engines did not work.
+
+Polarity v.8.1.1 (5/16/16)
+More code optimization, malicious error warning to remove site from ignore list moved to omnibar button (Reset zoom button location), fixed NullReferencedException in autocomplete menu, fixed Null Reference Exception in RichTextbox, many bug fixes in Trident mode, tab color mode now works in Trident tabs, new tab behavior in Trident mode now matches regular tabs, PolarPass bug fixes, ability to edit url of bookmark, clicking link in PolarPass modify credential dialog will open link in new tab, added option to forget all browsing data under tools menu, new menu in omnibar menu showing top sites and new bookmarks.
+
+Polarity v.8.1.0 (5/7/16)
+New tab page interface update, improved omnibar speed, lower load times for settings applet, improved fuidity of animations to buttons, option to unpause tabs when clicked on, bug fixes, option to switch between different preset ad filters in Polarity.
+
+Polarity v.8.0.9 (4/30/16)
+Fixed searching for image on Google when enhanced image viewer is enabled, fixed bug where Polarity fails to notify user if website is tracking location, better geolocation handling with new icon to notify users of tracking, more flexible adjustments to browser opacity, minor UI updates in settings applet, slight UI update to zoom, drop down, and voice control icon panel, small update to new tab page, faster performance in PolarShot, faster autocomplete menu performance, smoother tab animations, fixed UI issues when adjusting window border size with a background picture, option to disable web results, faster control center.
+
+Polarity v.8.0.8 (4/24/16)
+Updated refresh icon, ability to change window padding, bug fixes for Netflix, changes to touch event backend, more bug fixes, bug fix for text to speech.
+
+Polarity v.8.0.7 (4/17/16)
+Memory optimization for Privoxy, new Overlay mode in popup windows, youtube popup view now replaced with regular popup instances, added transparency slider for popup window, UI updates to settings applet and popup window, console bug fixes.
+
+Polarity v.8.0.6 (4/10/16)
+New minimal scrollbar design, fixed issues with exporting theme, console fixes, new viewer for mobile version of website, patches to Privoxy to add EasyList and EasyPrivacy, backend changes to tab pausing, middle mouse click on link no longer autoselects tab, right click option for tab to hibernate background tabs, removed random error message after closing popup window, API fixes, Windows Key + arrow key combo fixes for adjusting the browser window, update to tray notifications, right click menu for message panels, ability to clear all notifications.
+
+Polarity v.8.0.5 (4/1/16)
+Fixed issue where userscripts don't actually execute, new userscript architecture which sandboxes userscripts, fixed issues with Bing translator, fixed major error where the tab save file is corrupted, import bookmarks from HTML file, some backend code updates, fixed error message when opening polarity with settings applet in Spanish.
+
+Polarity v.8.0.4 (3/24/16)
+Fixed find dialog location bug when addressbar is minimized, minor icon changes in settings applet, fixed major memory leak in downloader, improved downloader efficiency, more bug fixes around the browser, tweaks to night mode for much better styling, faster startup with lower overhead when initializing settings, bug fixes to rename bookmark dialog, bug fix to enter key triggering error in all dialogs, fixed issues with Reditr webapp, small update to File Explorer, silent mode added to block all popups (could be enabled in Popup Manager).
+
+Polarity v.8.0.3 (3/11/16)
+Fixed Document Explorer issues, fix for Netflix playback, small ui update in settings applet, fixed issue with buttons fading to black or white on mouse leave, ability to adjust smooth scrolling speed, readjusted smooth scrolling, updated design of omnibar and autocomplete list, fixed bookmark applet bugs, removed obselete code, fixed history issue when starting browser up, updated downloader design, fixed missing spanish translation in context menu, backend improvements, fixed empty downloads folder bug, addition of safemode which launches browser with default settings to help troubleshooting, update to Privoxy 3.0.24, updated icons.
+
+Polarity v.8.0.2 (2/26/16)
+Added translation for bookmark importer, bookmark importer bug fixes, Google Slides bug fixes, fixed Document Explorer bugs, many patches, fixed crashing issue on popups, more efficient popup windows.
+
+Polarity v.8.0.1 (2/20/16)
+Bug fixes, keyboard shortcut patch that changes ctrl + arrow key combo to alt + arrow key, fixes to color mode not displaying color on certain websites, first few patches to fix crashing issues, new loading animations in tabs, faster tab animations, certificate bug fixes, StartPage search added, allow users to use "%s" as a place holder for custom search queries, option to open Trident tabs by default, fixed middle click issues.
+
+Polarity v.8.0.0 (2/15/16)
+DPI Aware, Replacement of Awesomium 1.7.4 with CefSharp, brand new settings applet to replace the settings window, overhaul of userinterface in the browser, more CPU efficient downloader, download recovery, night mode web browsing, updated mouse gesture API, search current site with shift+enter, messagebox prevention from websites, overhaul of new icognito mode with better design and privacy management, DirectWrite support added, brand new redesigned components, tab pausing in order to save memory, click to play plugins to stop plugin content from starting automatically, better website error protocol handling, redesigned autocomplete menu, disable certificate errors, restrict header data sent to websites, faster and smoother tab animations, fixed pinned tab bugs, popup/app window receives full context menu support, updated malware warning page design, redesigned popup window, fixed form snapping bugs, ctrl + direction keys to change window state, update reminder for portable versions, improved preference saving time, redesigned downloads bar and redesigned download instances, import bookmarks from welcome screen, website aliases, dump console log, lots of code optimization for efficiency, much faster performance with picture/gif backgrounds with translucent background tabs, updated UAs, fixed bug for ghost process after closing, button transitions, previous window size stored in memory, major update to PolarSync backend, fixed crashing issue when closing Twitter, color mode for tabs to allow users to more easily identify the website the tab is associated with.
+
+Polarity v.7.2.5 (2/3/16)
+Fixed compatibility issues with Windows XP and Vista.
+
+Polarity v.7.2.4 (1/24/16)
+Lower CPU usage in downloader.
+
+Polarity v.7.2.3 (1/2/16)
+Minor patches for Windows XP users.
+
+Polarity v.7.2.2 (12/22/15)
+Minor patches.
+
+Polarity v.7.2.1 (12/13/15)
+Bug fixes with handling bitmaps.
+
+Polarity v.7.2.0 (12/3/15)
+Minor optimizations, bug fixes, better directory error handling.
+
+Polarity v.7.1.9 (11/22/15)
+Fixed major crash when browser starts without an internet connection.
+
+Polarity v.7.1.8 (11/21/15)
+Many minor bug fixes across the browser.
+
+Polarity v.7.1.7 (11/18/15)
+Fixed major crashing issue in 7.1.6.
+
+Polarity v.7.1.6 (11/16/15)
+Bug fixes.
+
+Polarity v.7.1.5 (11/13/15)
+Middle click to close tab, other bug fixes.
+
+Polarity v.7.1.3 (10/23/15)
+Fixes and patches to bugs in top sites and downloader.
+
+Polarity v.7.1.2 (10/18/15)
+Fixes to Polarity Launcher, Polarity notification manager, and PolarSync, other fixes to downloader.
+
+Polarity v.7.1.1 (10/9/15)
+Spanish Translation Phase 3, more minor patches.
+
+Polarity v.7.1.0 (9/27/15)
+Minor patches and bug fixes across the browser.
+
+Polarity v.7.0.9 (9/19/15)
+Spanish Translation Phase 2, top sites disposed error fixed.
+
+Polarity v.7.0.8 (9/7/15)
+Fixed mouse gesture issues, added Spanish locale (Phase 1), language settings in settings menu.
+
+Polarity v.7.0.7 (8/30/15)
+Faster and smoother tab rendering, added additional tooltips, mouse gestures added to Polarity (enable it via settings menu).
+
+Polarity v.7.0.6 (8/18/15)
+Set home page from home page button context menu, private mode now blocks website trackers by default, important patches.
+
+Polarity v.7.0.5 (8/12/15)
+Fixed downloader file icon not appearing, notifications from confused folder, changed polarity notification warning dialog interval, omnibar will select next suggestion when pressing control + tab key, added looping to autocomplete suggestions, fixed rendering issues, better website phishing detection, tooltips added for tabs, quad snapping for Polarity, fixed control center bugs, option to play HTML5 video on Youtube.
+
+Polarity v.7.0.4 (8/2/15)
+User interface updates in settings window, updated UAs, modified zoom indicator, changing themes no longer require restart, message about userstyles added, themes now install to specified themes folder in config directory, update new tab page, autorefresh added to refresh button menu, Document Explorer instances now sync with their associated tabs, fixed autocomplete encoding issues.
+
+Polarity v.7.0.3 (7/25/15)
+Fixed bugs with importing bookmarks from Opera, bookmark importing from Opera Next added, fixed some issues with closing 
+Polarity, fixed issues with TuneIn Radio, fixed frozen issue when trying to open saved tabs, added more clearing options in settings window for cache, cookies,and history, smaller file size, optimized searching from omnibar, added adblock lite mode.
+
+Polarity v.7.0.2 (7/17/15)
+Multiple document explorer instances, session restoration after crashes, updated menu renderer, fixed bugs where 
+Polarity would stay open, faster rendering for GUI elements, redesigned new tab page, bug fixes.
+
+Polarity v.7.0.1 (7/11/15)
+Omnibar fixes with autocomplete, security info user interface update, fixes to custom warning pages, updated UI in applets, much better certficate error detection, added media and cookie tabs to security window, fixed download failed handling, fixed spacing issue in settings window, exception handler in popup manager, better RSS support, much faster rendering in Control Center, improved loading speed in document explorer, faster tabs, fixed Dropbox download problems, shift+enter to open search or website in new tab from omnibar, redesigned installer, option to delete all bookmarks, fixed Chrome bookmark imports, import bookmarks from Opera, higher quality icons in bookmarks bar, overhauled user interface for bookmarks menu, several bug fixes, updated private mode page, minor changes to private mode, fixed bug where Windows taskbar would cover the top portion of 
+Polarity, option to disable 
+Polarity manager.
+
+Polarity v.7.0.0 (6/28/15)
+Words highlighted from FindBox, different colors for different words, changes in pinned tab behavior, notifications on pinned tabs by flashing orange, fixed bug where pinned tabs won't save on "Always Discard" tabs mode, links open in new tabs in pinned tabs, Control Center updates, updates to Trident Mode, setting to always show appsbar, bookmarks bar under omnibar, Youtube Downloader bug fixes, fixes with PolarShot not completely closing, added SoundCloud support, updates to theming system, Facebook bug fixes, Trident tabs now save urls when you click save tabs, Youtube Flash patch, updated Window frame with shadows when DWM is enabled, Notification Center updates, downloader now selects item in folder, adjusted padding and UI rendering, better crash handling in Notification Center (click dialog to restart), fixed bug where window kept downsizing after restoring, smart snapping in Document Explorer, many under the hood changes, multithreaded downloading with download pausing, pop out Youtube video from context menu, icon caching for faster app and bookmark loading, close warning when downloads are still in progress, find box in new window, PolarPass integration in app windows, fixed fatal crash in PolarPass.
+
+Polarity v.6.3.2 (6/7/15)
+Minor patches to work flow, faster loading in popup mode for Youtube, translation for webpages to detected locale on system, PolarPass and PolarSync added to context menu, fixed bug in PolarPass where all autofill data could accidently be cleared, RSS reader powered by Feedly.
+
+Polarity v.6.3.1 (5/31/15)
+Reader mode button added to omnibar, fixes to PolarShot, updated print function, Control Center updates, updated app API to support JS apps, invalid language detection, optimization of code to improve speed, fixed some graphical glitches, updated icons for better appearance in dark themes.
+
+Polarity v.6.3.0 (5/16/15)
+Updated minimal scrollbar design, watch Youtube video fullscreen in separate window, bug fixed where 
+Polarity could not open tab in new window, shadows added to tab bar, more shadows around tab, new beta image viewer enabled for .jpg and .png, minor changes to website translation, fixed bug where autocomplete menu would not resize with browser window, tab sizes readjusted, PolarSync bug fixes.
+
+Polarity v.6.2.6 (5/9/15)
+Patch for mouse button functions, better website compatability, more websites are supported, Window no longer goes past taskbar, mouse button actions in app windows, editable addressbar in new window, updated Trident mode with new omnibar, open tab in new window.
+
+Polarity v.6.2.5 (4/24/15)
+More mouse button functions added, middle mouse button opens link in new tab, back and forward buttons on mouse now have functions, fixed bug where links become unclickable after pressing control key, Do Not Disturb mode for notifications in notification center, recent history list from drop down button in omnibar, find box gets focused when opened, launch 
+Polarity Launcher from appsbar.
+
+Polarity v.6.2.4 (4/12/15)
+Password autofill fixes, notifications from 
+Polarity appear in Notification Center, updated UAs, update to Notification Center actions, better stability, notification for when 
+Polarity is unresponsive.
+
+Polarity v.6.2.3 (4/4/15)
+Option to delete all cache, cookies, and history on exit, Youtube bug fixes, UI updates, clear recently closed tabs from context menu.
+
+Polarity v.6.2.2 (3/27/15)
+Minor additional updates, fixed adblock mode error in portable version, autocomplete menu will automatically appear upon typing, fixed Youtube link bugs, fixed bugs with notification center when restarting 
+Polarity, omnibar changes text based on selected autocomplete item, autocomplete menu fixes.
+
+Polarity v.6.2.1 (3/16/15)
+Bug fixes with script installation on GreasyFork, fixed selection jumping issue in omnibar, cleaner app bar design, faster and more efficient icon fetching in app bar, new link fixes, updated Trident Mode rendering engine, small update to Trident mode interface, updated UAs, fixed tab pinning issues, fixed bugs when opening tabs with ctrl T.
+
+Polarity v.6.2.0 (3/5/15)
+Minor UI updates, extension manager fixes, updates for notification center, control center updates, more efficient script execution, better extension execution, updated downloader UI, UI updates for web suggestions in omnibar, fixed bugs where long search queries are not processed, new icon set for notification, bug fixes in Control Center, Youtube Downloader bug fixes, fixed Youtube link bugs, bug fix for PolarPass not saving, Control Center will indicate selected tab.
+
+Polarity v.6.1.6 (2/21/15)
+New control center to replace Tab Manager, bug fixes with web filter, 2 step verification for PolarPass, update to Privoxy 3.0.23, fixed bugs with ctrl+click combo to open new links.
+
+Polarity v.6.1.5 (2/9/15)
+More keyboard shortcut commands, autocomplete selection bug fix, updates to malware warning page, updated API, custom message dialog, many UI enhancements, better theming, fixed opening link in new tab with control button.
+
+Polarity v.6.1.3 (2/2/15)
+Optimized autocomplete menu to remove flicker, fixed inline extension installation, autocomplete bug fixes, fixed zooming bugs, new autocomplete menu set as default, smaller file size.
+
+Polarity v.6.1.2 (1/30/15)
+Close identical tabs, translate selected text from right click menu, inline extension installation, updated settings window UI, ignore list for webfilter, updated omnibar to show history, favorites, and web results.
+
+Polarity v.6.1.1 (1/11/15)
+Fixed Youtube Downloader, addition of 
+Polarity Search, fixed custom search bugs, fixed Disconnect search not appearing, replaced 'Dismiss' button on notifications with image, addition of 
+Polarity Search, inline application install.
+
+Polarity v.6.1.0 (1/1/15)
+Addition of disconnect search, updated website error code detection and handling, 
+Polarity API fixes, PolarPass password manager, 
+Polarity Launcher 2.0, save web pages in .mht and other formats, ability to open files within 
+Polarity, tab pinning, autofill login information support for any website, updated API Functions, more keyboard shortcuts.
+
+Polarity v.6.0.1 (12/12/14)
+Update to Privoxy 3.0.22 with bug fixes and general improvements, crash handling in Document Explorer, various bug fixes, fixed tooltips not showing upon hovering over apps, better crash handling in unresponsive tabs, updated voice recognition icon.
+
+Polarity v.6.0.0 (11/27/14)
+Fixed minor UI bug on new tab page, picture themes will also display on tabpreviews, addition of PolarSync to help backup or restore settings in 
+Polarity, updated UA's, UI redesign in notifications, history, bookmarks, cookies, downloads, and download manager, slimmer applet toolbars, redesign of malware protection page, 
+Polarity API for interoperability between Javascript and native code for 
+Polarity App Client and tabs (special APIs for history, favorites, internals, apps, notifications, and 
+Polarity windows), automatic recovery when a tab crashes, rewording in several components, support for javascript apps, notifications disappear automatically after 5 seconds, updates to Document Explorer, updated UAs, better theme awareness, ability to change text color, new themes in store, fixed userscript/userstyle download detection, smaller file size, hide url bar in app window, fixed favicon fetching, hide address bar in app window, new commands in Terminal, updates to DevConsole, updates to downloader window, fixed zoom levels for all pages, fixed url changing upon page navigation.
+
+Polarity v.5.3.9 (10/24/14)
+Removed underline from links in new tab page, indication if app window is in Float mode, full screen mode for app windows, better page rendering, bug fixes with 
+Polarity Search, extensions automatically run after downloading, added Run button to extensions menu.
+
+Polarity v.5.3.8 (10/11/14)
+Updates to new tab page design, fixed bug in url not accepting "+" or "#", redesigned close window dialog, fixed bug where close button disappeared.
+
+Polarity v.5.3.7 (9/28/14)
+Change fonts on webpages via settings, wallpaper shuffle, Bing translate, updated sharing to sites, more apps in store, updated UAs, access to onscreen keyboard, app/popup window redesign.
+
+Polarity v.5.3.6 (9/6/14)
+Implemented window style in 
+Polarity App API, updated UAs, more commands added to CLI (Terminal), slight redesign of CLI.
+
+Polarity v.5.3.5 (8/26/14)
+Re-added download images from webpage to context menu, more apps added to appstore, 
+Polarity Weather, 
+Polarity Search.
+
+Polarity v.5.3.4 (8/9/14)
+Updated color scheme, minor UI updates, smaller file size, first portable version of 
+Polarity released.
+
+Polarity v.5.3.3 (8/3/14)
+Support for the userscripts mirror marketplace, improved closing the browser via command line, fixed bugs with uninstaller.
+
+Polarity v.5.3.2 (7/27/14)
+Ability to set any image from a webpage as a theme, updated UAs, ability to set homepage to open when you open a new tab, more bug fixes.
+
+Polarity v.5.3.1 (7/12/14)
+Fixed Dwm issue with updated 
+Polarity Manager, bug fixes, fix for Facebook crashing on Windows XP users, fixed bug with homepage not working, better internet protocol handling, website reporting added, updated UAs, minor UI changes, homepage button added to omnibar area.
+
+Polarity v.5.3.0 (7/5/14)
+Some minor bug fixes, console command changed to ctrl +" ` " instead of only " ` ", fixed the issue where the app bar does not refresh after installing a new app, ability to open the app after downloading it, fixed bug where download won't close.
+
+Polarity v.5.2.9 (6/28/14)
+
+Polarity will automatically stop downloads if they do not start in 5 seconds, several GDI fixes, fixed favicon bugs and cleaned up favicon code, new close buttons, smaller file size, updated ability to replace topsite from right click menu.
+
+Polarity v.5.2.8 (6/15/14)
+Ability to add site to speedial from favorites button or right click menu, notifications now warns you if 
+Polarity is unresponsive, fixed theming issues with picture mode, fixed bug where theme picture not appearing in new tab page, 
+Polarity will attempt to continue after hitting an error, crash dialog removed, share site to Facebook with right click, open image in new tab, support for userscripts.org added again.
+
+Polarity v.5.2.7 (6/7/14)
+More bug fixes, new icons for tab control, reduced file size, more code optimization, added support for GreasyFork and OpenUserJS for extensions, minor UI changes.
+
+Polarity v.5.2.6 (5/26/14)
+Hardware acceleration disabled by default, fixed font rendering issues, much faster shut down time, slightly faster startup time.
+
+Polarity v.5.2.5 (5/17/14)
+UA bug fixes and UA updates, greatly improved taskbar load times, fixed lagging issues, minor performance tweaks and bug fixes, fixed text to speech freezing issue, new menu design and minor facelifts.
+
+Polarity v.5.2.2 (5/3/14)
+New native webkit inspector, updated document explorer with better web editing tools and components, Awesomium inspector for all live websessions.
+
+Polarity v.5.2.1 (4/19/14)
+Fixed bug in custom search, fixed favicon bug, updated manage apps and extensions window, automatically detects if a new app is installed, open system files with 
+Polarity, open 
+Polarity apps via 
+Polarity Launcher or Desktop, release of 
+Polarity Notifications Beta and 
+Polarity Launcher Beta.
+
+Polarity v.5.2.0 (4/6/14)
+Awesomium 1.7.4, Chromium engine update, 
+Polarity notifications center(delayed), 
+Polarity App Launcher (separate application to work alongside 
+Polarity) (delayed), fixed iframe issue that caused inconsistent buffering, auto refreshing, better plugin compatability, greatly improved hardware acceleration and rendering, hardware acceleration on by default, possible web page compression service, plugin compatability mode on by default, increased browsing speed and web app performance, updates to app windows.
+
+Polarity v.5.1.3 (3/22/14)
+Fixed bug with 
+Polarity's themeing for inconsistent colors, fixed bugs in apps bar where the plus button does not appear, fixed major apps bar bug when the apps bar crashes the browser with apps installed.
+
+Polarity v.5.1.2 (3/8/14)
+Set new tab page as startup/home page, better user friendliness with help buttons, more descriptions of various features, option to report bug.
+
+Polarity v.5.1.1 (2/23/14)
+Apps launched in fullscreen mode will automatically float above all windows, bug fixes in opening new window, updated UAs.
+
+Polarity v.5.1.0 (2/14/14)
+Updated pop up window, addition of app bar at the bottom of the brower window to manage apps, new app (online) creator/editor tool, updated apps API, some UI changes to the settings dialog, updated new tab page, improved performance in page loading.
+
+Polarity v.5.0.2 (1/26/14)
+Updates to dev tools, uses less RAM on navigation, images and links on page shown in document explorer, faster AJAX calls and page loading speeds, updated voice recognition to listen to commands.
+
+Polarity v.5.0.1 (1/12/14)
+Bug fixes, ability to see which userscripts are running, animations in tab movement, fixed accidental window restoration, smoother tab animations and fixed tab jumping and lag, added feature to auto-detect system proxy, tab preview shows while pressing ctrl key by default, support for userstyles, fixed fullscreen mode bug,  aero snap now works with multiple screens, fixed ctrl- click where it opened 2 tabs.
+
+Polarity v.5.0.0 (1/1/14)
+Add-on API fully released, new add-on store, add on system, New Add-on API, website notifications add-on, browser to add-on API, external download manager,  instant sharing and tweeting from right click menus, cache mode where cache is saved and reuse, more refined and polished UI, parallel sessions,  updated Chromium controls, downloading themes will ask you to set as theme, more animations that run smoother,  new Youtube downloader, thinner scrollbar, new animator library, execute and save your userscripts, option to toggle engine flags, autofill information, updated history dialog, custom search engines, accepts mailto: protocol, updated CLI, faster new tab loading,  Zoom indicator on omnibar, settings UI change, JS Scratchpad, document explorer now comes with a colored text editor, google suggestions omnibar autocomplete menu fixes, help center, bug fixes, theme exporting, help button in about dialog.
+
+Polarity v.4.5.1 (12/14/13)
+Updated UAs, new window uses browser cache, fixed hardware acceleration, fixed upload issues in Dropbox and Facebook, omnibar bug fixes, improved private mode, adblock window now starts hidden if enabled, wolframalpha replaces megavideo search engine, omnibar now supports drag and drop urls.
+
+Polarity v.4.5.0 (12/7/13)
+
+Polarity will now remember your cache if private mode is off (cache is automatically deleted on exit if private mode is on), faster startup and closing time, option to delete cache, holding ctrl and clicking a link opens the link in a new tab, bug fixes, show Chromium mode cookies, updated UAs, redesigned security info.
+
+Polarity v.4.4.8 (11/30/13)
+Better favicon quality, fixed bug in Windows 8 and higher where 
+Polarity crashes when opening a new tab.
+
+Polarity v.4.4.7 (11/27/13)
+Updated UAs, fixed flickering issues when resizing window, ability to change background image intensity, more responsive responses and faster page load time, updated settings UI, faster way to access Trident mode (left click newtab button for Chromium, right click for Trident), double clicking tab area adds new tab, new tab page uses 
+Polarity theme image if enabled.
+
+Polarity v.4.4.6 (11/16/13)
+Updated UAs, updated CLI, option to change download location on start of download, add bookmark to speedial, extension of features to Trident mode including web filter, new SSL certificate error indicator, added individual Trident settings and bookmarks, Trident bookmarks automatically imported from IE on start.
+
+Polarity v.4.4.5 (11/2/13)
+Importing bookmarks from Google Chrome, addition of many shortcut keys, fixed major GDI object leak, new Awesomium version (1.7.3), improved Javascript Interoperation Framework(JIF), more omnibar features and keyboard commands, process exit error dialog removed, new installer/updater/uninstaller, new favicon system, fixed freezing issue when closing, htm5 test 407 points.
+
+Polarity v.4.4.2 (10/19/13)
+Memory flush mode now optional, bug fixes, fixed find dialog graphical glitch, fixed ctrl-T bug, updated UAs.
+
+Polarity v.4.4.1 (10/6/13)
+Ctrl+Shift+T will reopen last closed tab, tab preview size fix, Ecosia search engine replaces Jawoco, ability to check for out of date plugins, updated UAs, browser plugin compatibility mode added(disables tab previewing and tab manager when in use), small facelift to entire browser, 
+Polarity themes can be downloaded from theme site.
+
+Polarity v.4.4.0 (9/18/13)
+Updated Awesomium 1.7.2, enhanced voice recognition technology, redesigned options panel and settings window, theme search built into options panel, Trident new window bug fixes, better tab recovery feature when a tab crashes, increased browsing speed and responsiveness, updated drop down menu UI, more efficient GDI object handling, fixed major bug that prevented deletion of bookmarks and corrupted bookmarks, supported in process plugins, stricter process memory handling, new shortcut functions/buttons, many bug fixes.
+
+Polarity v.4.3.8.1 (9/13/13)
+Minor bug fixes.
+
+Polarity v.4.3.8 (9/1/13)
+Voice recognition bug fixes, fixed bugs on closing/saving for data(history, bookmarks, etc...), updated bug reporter.
+
+Polarity v.4.3.7 (8/30/13)
+Smaller settings window, few bug fixes, better crash handler, slightly smaller tab manager to fit smaller screens, fixed remove program bug, faster shut down time, updated UAs.
+
+Polarity v.4.3.6 (7/28/13)
+Trident mode bug fixes, Windows XP support returns, fixed Trident mode bug where popups don't open, fixed site blocker in Trident mode, support for IE 11 engine in Trident mode, fixed application crashed handler, fixed javascript bug where it does not turn off, fixed UA bug.
+
+Polarity v.4.3.5 (7/19/13)
+Revamped history, new tab page redesign (replaces old buggy one), update to preference system, bug fixes, compiled with optimizing JIT debugger, updated security info look, ability to check actual website reputation score card, website blocker added, ability to open local files via desktop or file explorer, updated UA's, fixed major bug where searches don't load in 
+Polarity.
+
+Polarity v.4.3.0 (7/10/13)
+Various bug fixes and UI tweaks, support for picture themes, experimental new scrollbar style option, new UI tweaks, some bug fixes, new optional autocmplete menu that searches for web based results, fixed downloader UI where downloads that don't fit the screen are offset, fixed popup bug where some popups(good popups) do not show, fixed bug in Gmail where links would not open, error dialog on close is gone, bug fix where links do not load when clicked after using ctrl keys.
+
+Polarity v.4.2.3 (6/27/13)
+Fixed light/dark coloring on tabs, fixed theming bugs in color preferences dialog, fixed weird tab preview shrinking, fixed auto-updater, Windows 8.1 support.
+
+Polarity v.4.2.2 (6/23/13)
+Fixed notification center issues with buttons, new UI based color picker for theming, new PDF viewer, faster tab preview show time.
+
+Polarity v.4.2.1 (6/11/13)
+Pop up window will use the same cache as the main window, bug fixes, faster status text with facelift, fixed updater and auto updater, ctrl-T will add a new tab page, full screen bug fixed, fixed updater issues, fixed bugs in console commands, added omnibar border when theme is changed, getting ready for new theme store, fixed IE bookmarks bug, fixed UA bug, update mal site page, web filter will be off by default, new shortcut key commands will be added.
+
+Polarity v.4.2.0 (5/24/13)
+Youtube bug fixed where no icons show, UI redesign (Minimal Concept), faster application and response time, Privoxy updated to 3.0.21, blocked ads do not show, faster web browsing, revamped security info, incremental updates, new icons, font changes, faster tab control, fixed drop down menu, updated to Awesomium 1.7.1, more UAs, updated notifications, source code opens in a new tab with highlighting, changes in certain features, improved javascript performance, fixed bug in tab recovery, faster smooth scrolling, smoother notification system with new icons, auto update.
+
+Polarity v.4.0.5 (5/1/13)
+Fixed proxy mode bug, save page as allows you to save it as a .html, .css, or .js file, fixed bug where 
+Polarity crashes after a pop up, browser automatically restarts after unexpected error or crash with the saved session, tab recovery when a tab crashes, experimental ad blocking (flash, banner, video, etc...) powered by Privoxy, ad block mode speeds up web browsing, security, and decreases GDI object usage, Trident mode now scores 319 on HTML5 test if you have IE 10 installed.
+
+Polarity v.4.0.1 (4/13/13)
+Fixed UA bugs, partially fixed GDI object leak, shortcut keys readded, quicked tab control, better management of GDI objects, partially resolved GDI object leakage, tab preview fixed, more functionality in source code viewer, fixed the bug that would not allow safemode to open, tons of bug fixes, search engine bug fixed, updated UAs, faster page navigation.
+
+Polarity v.4.0 (3/27/13)
+Stricter web filter, improved support for HTML5, CSS3, ECMA Script, Acid 3 Test 100/100, HTML5 Test 398/500, improved speed, update to chromium V8 engine, Awesomium 1.7, dpi-optimized web browser, new architecture (4x), new custom tab control, new components, possible smaller file size, possible new look, anti-crash, better stability, sandboxing, using the .NET 4.0 Framework, GDI object usage reduced 70% - 90%, voice recognition technology, web security, WebGL, local storage, web audio, and other plugins are all supported now, certificate detection, smoothscrolling off by default, cache is automatically deleted, navigation error handling, website redirect detector, choice of enabling GPU acceleration, more quotes, better download management.
+
+Polarity v.3.3.1 (3/4/13) - (3/4/14)  Supported for Windows XP users.
+Minor tweaks in 
+Polarity, tiny changes in code, fixed zoom bugs, improved image saving.
+
+Polarity v.3.3.0 (2/15/13)
+More shortcut key commands added, check for updates are on by default, updated UA's, possible portable version coming soon,  live tab previewing in tab manager, improved tab manager functions, new installer UI.
+
+Polarity v.3.2.7 (2/4/13)
+ Zoom UI changed up a bit, safemode takes up less memory with autoflush added to it, smaller updater, safemode, and uninstaller size.
+
+Polarity v.3.2.6 (1/19/13)
+Fixed proxy bugs, proxy goes back to normal after the browser has closed, 
+Polarity Cleaner closes after you click "restart 
+Polarity", safer web filter that blocks malicious websites from being loaded, warning messages are shown for suspected malicious websites, ability to turn on or turn off the web filter, smaller file size.
+
+Polarity v.3.2.5 (1/8/13)
+Text zooming added, password exception manager, more accurate download scrollbar, master password manager, certificate validation, update tab context menu with more features and functions, updated browser context menu, updated CLI quotes and added a select tab command, faster tab control, added 11 more random messages in CLI.
+
+Polarity v.3.2.0 (12/27/12)
+Ability to save a web page, fixed safemode bugs, optimized safemode.
+
+Polarity v.3.1.9 (12/22/12)
+Snapshot feature is now added (located in the tab manager), 
+Polarity Cleaner bundled with installer, ability to clear cache, updated uninstaller.
+
+Polarity v.3.1.8 (12/17/12)
+Ability to add and remove the CSS you have chose, saved passwords manager.
+
+Polarity v.3.1.7 (12/9/12)
+Fixed task manager and web console bugs, speed boost to Villanova engine, fixed changelog bug, add-ons manager added.
+
+Polarity v.3.1.6 (12/8/12)
+Faster tab speed, new certificate manager, Webpage Console, and more dev tools, ability to search through past downloads, task manager, stricter web security, updated UA's.
+
+Polarity v.3.1.5 (12/4/12)
+Security alerts in an unsafe website, few UI tweaks in security info, speaks selected text (not on Trident mode), updated Console, ability to import and export themes, faster omnibar, saves downloads until next time if downloads are not closed (will resume download if download is not completed.), website database from WOT, crash handler added to save tabs when it crashes, smaller uninstaller, updated safemode, fixed tab offset.
+
+Polarity v.3.1.1 (11/28/12)
+Some minor bug fixes, fixed bookmark renaming bug, console improvements, console bug fixes, and easier usage in the console, check for updates on startup is on by default, fixed global reset homepage bug, autocomplete mode for omnibar is now default.
+
+Polarity v.3.1.0 (11/22/12)
+Various bug fixes in browser run time, slimmer UI, more browsing space, new tab style and highlighting.
+
+Polarity v.3.0.7 (11/10/12)
+Small downloader UI fix and functionality, html element and stopping bug fixed, stronger website blocker, stricter web filter in Trident mode that scans for any pages that contain links to the blocked sites, optimized code, smaller file size.
+
+Polarity v.3.0.6 (11/6/12)
+Some minor changes in UI, revised downloader look, fixed major Int32 hex color error on start up, faster and more secure Trident engine(greatly enhanced), re-addition of website blocking technology which has been upgraded, sharing is re-added, smaller file size.
+
+Polarity v.3.0.5 (11/4/12)
+Smart omnibar, polished UI, revised security info, re-addition of WOT, improved find function.
+
+Polarity v.3.0.3 (10/31/12)
+More bug fixes, new icons, smaller file size, updated UA's.
+
+Polarity v.3.0.2 (10/29/12)
+More Trident bug fixes, better stability, faster tab control.
+
+Polarity v.3.0.1 (10/27/12)
+Fixed installer bugs, safemode bug, safemode gets recoded Trident engine, speed improvement, stability improvement, aero snap, Url Prediction Technology, new icons, smaller file size.
+
+Polarity v.3.0 (10/22/12)
+Revamped DevConsole, new UI design (Glade Concept), improved downloader which is moved to the bottom, easy access to actions and preferences in the settings button, clearer feel and look, removal of title bar and more browsing space, new gradients, faster startup time, faster Trident engine, improved themeing system, more customization, faster page load time, less lag, support for more websites, new icon sets, smoothscroll and memory flush on by default, tab previewing, fixed applet glitches, formless GDI+, mobile view of website, better updater, fixed website rendering bugs, Trident mode bug fixes, fixed full screen mode, HTML5 Test: 173, Acid3 Test: 99/100.
+
+Polarity v.2.5.0 (10/12/12)
+Social features such as sharing a website and posting, addtion of apps, Gecko engine tweaks, minor UI changes.
+
+Polarity v.2.4.5 (10/1/12)
+WOT has been added to the browser, another recoding of the Trident engine for speed boost.
+
+Polarity v.2.4.0 (8/28/12)
+Recoded Trident engine for speed, fixed bugs in trident mode, fixed security bugs with stricter firewall, various bug fixes, fixed viewing on small screens, fixed major corrupt memory error.
+
+Polarity v.2.3.9 (8/24/12)
+Better RAM handling, lowered RAM usage, ability to flush browser memory.
+
+Polarity v.2.3.8 (8/21/12) 
+Updated malicious website database, more search engines, UI changes, Page Info.
+
+Polarity v.2.3.7 (8/17/12)
+Trident Mode runs on upgraded engine (Trident 5.0), bug fixes, better caching and http request handling, decreased CPU usage, faster page rendering, list of malicious websites in database (2.7k websites), faster load time, fixed freezing issues.
+
+Polarity v.2.3.6 (8/14/12)
+Adding proxy settings and IP masking, Proxy optimization to increase browsing speed, better cache handling, smooth scrolling.
+
+Polarity v.2.3.5 (8/9/12)
+Ability to change user agents for compatibility reasons and better web page display, decreased file size.
+
+Polarity v.2.3.4 (7/31/12)
+Smaller file size, less RAM usage, bug fixes, faster load time and performance, support for Windows 8.
+
+Polarity v.2.3.3 (7/30/12)
+Fixed filing directories, fixed shortcut creating bug, bug fixes, enhanced web editing features, slimmer UI.
+
+Polarity v.2.3.2 (7/18/12)
+Working updater, faster performance, google searches use https://.
+
+Polarity v.2.3.1 (7/11/12)
+More compact look, theming added, more options added, more security features, new settings design, option to hide status bar, more search engines and more.
+
+Polarity v.2.3.0 (6/26/12)
+More functions added to TabControl menu, many bug fixes with rendering web pages using trident, Document Explorer added.
+
+Polarity v.2.2.9 (6/24-25/12)
+More bug fixes, fixed freezing problem, updated info, added DevConsole commands, dual engine browser.
+
+Polarity v.2.2.8 (6/20/12)
+New safe mode and bug fixes.
+
+Polarity v.2.2.7 (6/19/12)
+Upgraded omnibar, better data handling, new UI for settings, decreased CPU usage
+
+Polarity v.2.2.6 (6/19/12)
+Failed version.
+
+Polarity v.2.2.5 (6/17/12)
+Working installer and uninstaller with various bug fixes.
+
+Polarity v.2.2.4 (6/15/12)
+Minor UI changes and bug fixes.
+
+Polarity v.2.2.3 Beta (6/10/12)
+Massive UI changes, Villanova Engine, Experimental new interface, new functions, auto updater, self creating files to store data, decreased CPU usage, XUL Runner 1.9.2 Gecko, increased security and pop up blocking, custom settings for browsing mode aka java, flash, images, favicon, DNS prefetching, download manager that supports multiple downloads at once with a faster speed, private mode, options and actions moved to bottom bar, auto complete, closing options, better favorites and history handling, spell check, built in PDF reader, CSS3, HTML5 improvements, Acid 3 Test 99/100, HTML5 test 187/500.
+
+Polarity v.2.2.2 (5/30/12)
+More features added to Terminal, faster web page load time and performance, less laggy.
+
+Polarity v.2.2.1 (5/29/12)
+Fixed Diagnosis Terminal bugs, faster browser page rendering.
+
+Polarity v.2.2.0 (5/24/12)
+Diagnosis Terminal added to 
+Polarity.
+
+Polarity v.2.1.9 (5/18/12)
+Added apps to new tab page.
+
+Polarity v.2.1.8 (5/16/12)
+Different new tab page, cleaner look, UI changes.
+
+Polarity v.2.1.7 (5/15/12)
+Add-ons section added. Pre-loaded add-ons include "WOT" and "IE9 Add-ons".
+
+Polarity v.2.1.6 (5/8/12)
+Lessened CPU usage and lag.
+
+Polarity v.2.1.5
+Different pop up notification, new icon.
+
+Polarity v.2.1.4
+Added new tab control loading manager.
+
+Polarity v.2.1.2-2.1.3
+New security information for web pages, added compatibility to view/edit IE history and favorites, Improved feed detector, added 
+Polarity SafeMode, New downloader design.
+
+Polarity v.2.1
+Improved 2 setting pop up blocker, site searcher added.
+
+Polarity v.2.0.7 (4/17/12) - v.2.0.9
+Changed new tab page design, easier access to favorites, history, and search. Faster application load time. Status bar moved to sidebar.
+
+Polarity v.1.9.1 (3/17/12) - v.2.0.6
+More bug fixes, Document Explorer, Cookie Viewer, and RSS Feeds added along with more tools.
+
+Polarity v.1.9.3 (3/20/12)
+
+Polarity v.1.9.4 (3/23/12)
+
+Polarity v.1.9.5 (3/27/12)
+
+Polarity v.1.9.6 (3/27/12)
+
+Polarity v.1.8.4 (3/5/12) - v.1.9.0
+New and cleaner design, various bug fixes, improved web page rendering, more components added.
+
+Polarity v.1.8.9 (3/15/12)
+
+Polarity v.1.8.5 (3/9/12)
+
+Polarity v.1.8.3
+Added website security ratings system.
+
+Polarity v.1.8.2
+Brand new tab shapes, less buggy, added options and extra features.
+
+Polarity v.1.8.1
+Just added adjusted tab sizes, added more options, added lock screen.
+
+Polarity v.1.8 (2/25/12)
+More options in the Options window, fixed design of options, added webpage edit options.
+
+Polarity v.1.7.8 (2/23/12)
+Fixed several bugs, new splash screen in New Tab page, fixed new tab page glitch.
+
+Polarity v.1.7.5 - v.1.7.6 (2/21/12)
+Added the appointments function, fixing log in system, more options on new tab page.
+
+Polarity v.1.7.2
+Added more tools, fixing bugs, new tab glass gradient.
+
+Polarity v.1.7.1 (2/17/12)
+
+Polarity v.1.7 (2/12/12)
+Fixed zooming glitch, improved pop up blocker, progress bar on top, opacity option added. New tab page added.
+
+Polarity v.1.6 (1/28/12)
+Added options and tools, new tab design.
+
+Polarity v.1.4 (1/13/12 - 1/20/12)
+Added sidebar items, added tools, fixed bugs and glitches.
+
+Polarity v1.4 Alpha (1/6/12)
+Attempt to re-intergrate DotNetBar to browser. Version failed and was not published.
+
+Simplicity  v.1.3
+New sidebar design, added tools, themes added.
+
+Simplicity  v.1.2
+Improved design, fixed bugs.
+
+Simplicity  v.1.1 (1/6/12)
+Brand new design, added functions from previous versions with new functions.
+
+Simplicity v.1.0 Alpha (12/23/11)
+Intergration of DotNetBar v2 to Simplicity. Version was never published.
+
+Simplicity  v.9 (12/20/12 - 12/23/11)
+First stable release with default options.
+
+Simplicity v.3 (12/15/11)-v.8
+Various bug fixes, more functions.
+
+Simplicity v.7 (12/16/11)
+
+Simplicity v.4 (12/15/11)
+
+Simplicity v.2 (12/10/11)
+Better UI layout, more options, failed version
+
+Simplicity v.1 (12/10/11)
+Just starting out as a brand new browser.
+
+Simplicity v.0 (11/16/11) (Simplicity Concept)
+Concept of browser.
+* means that it is still supported.
