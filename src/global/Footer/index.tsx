@@ -59,7 +59,7 @@ export const FooterComponent: React.FC<FooterComponentProps> = props => {
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="https://www.facebook.com/polaritybrowser"
+                                href="https://www.facebook.com/polarityweb"
                             >
                                 <button className="btn-social">
                                     <i className="fab fa-facebook-f"></i>
