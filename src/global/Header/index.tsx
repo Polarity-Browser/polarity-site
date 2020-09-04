@@ -22,7 +22,7 @@ export const HeaderComponent: React.FC<HeaderComponentProps> = props => {
                     zIndex: 2000
                 }}
             >
-                <Link to="/main">
+                <Link to="/">
                     <Navbar.Brand className="d-flex align-items-center">
                         <img className="mr-2" css={{ borderRadius: '3px' }} src="/images/icons/polarity_24x24.png" />{' '}
                         Polarity

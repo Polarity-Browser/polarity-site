@@ -28,7 +28,7 @@ export const Invalid: React.FC<InvalidProps> = props => {
                 }}>404</h1>
                 <p className="h1" css={{
                     marginTop: '-3rem'
-                }}>Looks like you hit the wrong turn. <Link to="/main" css={{
+                }}>Looks like you hit the wrong turn. <Link to="/" css={{
                     color: '#3800ff'
                 }}>Click to head home</Link>.</p>
             </div>
