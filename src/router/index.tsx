@@ -24,8 +24,7 @@ interface RouterProps {
 export const Router = (injectedProps: any) => {
     return (
         <Switch>
-            <Redirect from='/' exact to='/main' />
-            <Route path='/main' exact render={(props: any) => (
+            <Route path='/' exact render={(props: any) => (
                 <DefaultLayout>
                     <Main {...props}></Main>
                 </DefaultLayout>
