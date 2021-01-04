@@ -28,7 +28,7 @@ export const Download: React.FC<DownloadProps> = props => {
             </div>
             <section className="section--padded">
                 <div className="container">
-                    <p className="h1">Polarity 10.0</p>
+                    <p className="h1">Polarity 10.0.3</p>
                     <hr />
                     <div className="row">
                         <div className="col-lg-6">
