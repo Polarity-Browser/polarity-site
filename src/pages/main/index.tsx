@@ -434,12 +434,12 @@ export const Main: React.FC<MainProps> = props => {
                         <p className="responsive-p">
                             <b>Before &mdash;</b> 9 seconds
                         </p>
-                        <img className="w-100" src="http://polarity.x10.mx/browser/img/networkBefore.PNG" />
+                        <img className="w-100" src="/images/networkBefore.PNG" />
                         <hr className="mt-4" />
                         <p className="responsive-p">
                             <b>After &mdash;</b> 5.5 seconds
                         </p>
-                        <img className="w-100" src="http://polarity.x10.mx/browser/img/networkAfter.PNG" />
+                        <img className="w-100" src="/images/networkAfter.PNG" />
                     </div>
 
                     <div className="row mt-5">
@@ -451,7 +451,7 @@ export const Main: React.FC<MainProps> = props => {
                             </p>
                         </div>
                         <div className="col-md-2">
-                            <img src="http://polarity.x10.mx/browser/img/legend.PNG" />
+                            <img src="/images/legend.PNG" />
                         </div>
                     </div>
                 </div>
